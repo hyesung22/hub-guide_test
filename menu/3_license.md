@@ -8,7 +8,7 @@ published: true
 License List의 License Name Column의 cell을 클릭하면 상세정보를 확인할 수 있습니다. 
 ```
 ## License List
-![LicenseList](../images/license_list.png)  
+![LicenseList](images/license_list.png)  
 
 ### License Name
 - License Full name으로 SPDX (https://spdx.org/licenses/) 표기 방식을 따르고 있습니다.
@@ -46,7 +46,7 @@ License List의 License Name Column의 cell을 클릭하면 상세정보를 확�
 
 ## (Admin Only) License 추가, 수정, 삭제
 ### License 추가
-![NEW_OSS](../images/3_lic_new.png)  
+![NEW_OSS](images/3_lic_new.png)  
 1. License List에서 우측 상단 Add 버튼을 클릭합니다.
 2. "New_License" 탭에서 신규 OSS의 정보를 입력합니다.
     - License Name, Nick Name은 중복될 수 없습니다. 

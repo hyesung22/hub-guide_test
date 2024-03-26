@@ -5,11 +5,11 @@ published: true
 # Project
 ```note
 Open Source Software를 포함하는 Software의 개발 및 배포를 위해 수행해야 하는 Process를 순차적으로 수행합니다.  
-![prj_status](../images/4_project_process.png)
+![prj_status](images/4_project_process.png)
 ```
 
 ## Project List
-![ProjectList](../images/project_list.png)  
+![ProjectList](images/project_list.png)  
 Project를 검색하고, 해당 Project의 전체적인 정보를 확인하고 FOSSLight Report, OSS Notice, OSS Package를 다운로드할 수 있습니다.
 
 - Search : Project의 기본 정보, Status, License, OSS Name 등으로 Project를 검색할 수 있습니다.
@@ -27,7 +27,7 @@ Project를 검색하고, 해당 Project의 전체적인 정보를 확인하고 F
     - Low (Critical Score 0.1 ~ 3.9)
 
 ### Project의 Status
-![prj_status](../images/4_project_status.png)
+![prj_status](images/4_project_status.png)
 
 | Status  | Description |
 | ------------- | ------------- |
@@ -48,7 +48,7 @@ Project를 검색하고, 해당 Project의 전체적인 정보를 확인하고 F
 
 #### Basic Information탭
 Project에 대한 기본 정보를 수정하거나 Status를 변경하는 탭입니다. 
-![prj_basic](../images/4_project_bi.png)
+![prj_basic](images/4_project_bi.png)
 Project List에서 Project Name을 더블 클릭합니다. 
 - Delete : Project를 삭제합니다. 
 - Drop : Project의 Status를 Drop으로 변경합니다. 다시 Process를 진행하기 위해서는 Open 버튼을 클릭해야 합니다. 
@@ -67,7 +67,7 @@ Project List에서 Project Name을 더블 클릭합니다.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/zzopYiY2UOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### 2-1. 3rd Party Tab
-![prj](../images/4_project_3rd.png)
+![prj](images/4_project_3rd.png)
 *3rd Party 탭 작성 Process*
 - 3rd Party Software가 포함된 경우 : 사전에 리뷰 완료된 3rd Party를 Load → Save
 - 3rd Party Software가 포함되지 않은 경우 : Not Applicable 체크 → Save
@@ -79,7 +79,7 @@ Project List에서 Project Name을 더블 클릭합니다.
 2. Project Search : 다른 Project의 3rd Party 탭을 load합니다.
 
 #### 2-2. DEP Tab
-![prj](../images/4_project_dep.png)
+![prj](images/4_project_dep.png)
 *DEP 탭 작성 Process*
 - Package manager를 통해 OSS가 포함된 경우: 각 dependency의 OSS 정보를 작성 -> Save
 - Package manager를 통해 OSS가 포함되지 않은 경우 : Not Applicable 체크 → Save
@@ -95,7 +95,7 @@ Project List에서 Project Name을 더블 클릭합니다.
     - FOSSLight Dependency Scanner를 통해 자동으로 OSS 정보 기입된 보고서 생성 가능합니다.
 
 #### 2-3. SRC Tab
-![prj](../images/4_project_src.png)
+![prj](images/4_project_src.png)
 *SRC 탭 작성 Process*
 - Source code별 OSS가 포함된 경우: Source code별 OSS 정보를 작성 -> Save
 - Source code별 OSS 분석 대상이 아닌 경우 : Not Applicable 체크 → Save
@@ -109,7 +109,7 @@ Project List에서 Project Name을 더블 클릭합니다.
     2. Project Search : 다른 Project의 SRC 탭을 Load합니다.
 
 #### 2-4. BIN Tab
-![prj](../images/4_project_bin.png)
+![prj](images/4_project_bin.png)
 *BIN 탭 작성 Process*
 - Binary가 포함된 경우 : Binary별 OSS 정보를 작성 -> Save
 - Binary가 포함되지 않는 경우 : Not Applicable 체크 → Save
@@ -124,7 +124,7 @@ Project List에서 Project Name을 더블 클릭합니다.
 
 #### 2-5. BOM Tab
 3rd Party, DEP, SRC, BIN 탭에 작성된 OSS 목록을 취합하고 리뷰 요청을 합니다.
-![prj](../images/4_project_bom.png)
+![prj](images/4_project_bom.png)
 
 ##### Review 요청 방법
 1. Merge And Save 버튼을 클릭합니다.
@@ -149,7 +149,7 @@ Project List에서 Project Name을 더블 클릭합니다.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/66uWu4qxOog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### 3-1. Packaging Tab
-![prj](../images/4_project_pkg.png)
+![prj](images/4_project_pkg.png)
 Packaging tab에서는 OSS Package 파일을 Upload하고 이를 Verify합니다. (단, Source Code 공개를 필요로하는 License하의 Open Source를 사용하지 않았다면 이 탭은 비활성화됩니다. )
 1. OSS Package Upload  
     - Source code를 취합한 Packaging 파일(압축 파일)을 Upload합니다.
@@ -166,7 +166,7 @@ Packaging tab에서는 OSS Package 파일을 Upload하고 이를 Verify합니다
 
 
 #### 3-2. Notice Tab
-![prj](../images/4_project_notice.png)
+![prj](images/4_project_notice.png)
 OSS Notice는 Identification > BOM 탭을 기준으로 자동 생성됩니다. 이 때, 발행하는 OSS Notice의 포맷이나 Contents를 수정할 수 있습니다.
 
 #### 3-3. Review 요청

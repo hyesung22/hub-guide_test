@@ -8,7 +8,7 @@ published: true
 OSS List의 OSS Name Column 내 cell을 클릭하면 상세정보를 확인할 수 있습니다. 
 ```
 ## OSS List
-![OssList](../images/oss_list.png)  
+![OssList](images/oss_list.png)  
 
 ### ID  
 - OSS를 식별하는 숫자입니다.
@@ -57,7 +57,7 @@ OSS List의 OSS Name Column 내 cell을 클릭하면 상세정보를 확인할 �
 
 ## (Admin Only) OSS 추가, 수정, 복사, 삭제, 일괄 변경
 ### OSS 추가
-![NEW_OSS](../images/2_oss_new.png)  
+![NEW_OSS](images/2_oss_new.png)  
 1. OSS List에서 우측 상단 Add 버튼을 클릭합니다.
 2. "New_Opensource" 탭에서 신규 OSS의 정보를 입력합니다.
     - OSS Name, Nick Name은 중복될 수 없습니다. 
@@ -66,7 +66,7 @@ OSS List의 OSS Name Column 내 cell을 클릭하면 상세정보를 확인할 �
 3. 우측 하단의 Save 버튼을 클릭합니다.
 
 ### OSS 상세정보탭
-![OSS_DETAIL](../images/2_oss_detail.png)  
+![OSS_DETAIL](images/2_oss_detail.png)  
 OSS List에서 OSS Name을 클릭합니다.
 Admin 인 경우에만 Editable하게 표시되며 Save, Sync, Copy, Delete 버튼이 표시됩니다.
 
@@ -84,14 +84,14 @@ OSS 복사 기능은 동일한 OSS의 다른 버전을 추가할 때 유용합�
 1. Comment란에 삭제 사유를 기입합니다.
 2. 좌측 하단의 Delete 버튼을 클릭합니다.
     - 📢 해당 OSS가 Identification 단계가 Confirm된 Project에 포함된 경우, Delete 버튼 클릭 시 다른 OSS로 Merge하는 창이 팝업됩니다.   
-    ![NEW_OSS](../images/2_oss_rename.png)
+    ![NEW_OSS](images/2_oss_rename.png)
         - Merge할 OSS를 선택하면, 삭제하는 OSS의 Name과 NickName은 Merge하는 OSS의 Nickname으로 이동됩니다.
 
 
 #### OSS 버전별 정보 일괄 변경 기능
 OSS에 여러 버전이 등록된 경우, 각 버전별 정보를 일괄 업데이트시 사용합니다.
 우측 하단의 Sync 버튼을 클릭합니다.
-![OSS_SYNC](../images/2_oss_sync.png)  
+![OSS_SYNC](images/2_oss_sync.png)  
 - (1) 수정할 OSS 버전을 선택합니다. 
     - 이미 동일한 OSS 정보를 가진 버전의 경우, 회색으로 표시되며 선택 불가합니다.
 - (2) 수정할 OSS의 정보를 선택합니다. 

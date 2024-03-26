@@ -31,11 +31,11 @@ Self-Check는 아래와 같은 절차를 통해 진행할 수 있습니다.
     1. Upload Analysis Result란에 OSS 리스트가 기재된 FOSSLight Report를 업로드합니다. 
         - 업로드 가능한 FOSSLight Report 양식은 Export 버튼을 클릭하여 다운로드 받을 수 있습니다.
     2. OSS List가 작성된 Sheet를 선택하고 OK 클릭합니다.  
-    ![select_sheet](../images/6_self_select_sheet.png)
+    ![select_sheet](images/6_self_select_sheet.png)
     3. Save 버튼을 클릭합니다. 
  
 ### 3. OSS 및 License 정보 확인
-![oss_table](../images/6_self_oss_table.png)
+![oss_table](images/6_self_oss_table.png)
 #### Warning Messages
 - Unconfirmed open source : FOSSLight Hub에 동일한 OSS Name이 등록되어 있지 않은 경우 표시됩니다.
 - Unconfirmed version : FOSSLight Hub에 동일한 OSS Name은 있으나, 동일 Version이 등록되어 있지 않은 경우 표시됩니다.
@@ -63,15 +63,15 @@ Self-Check는 아래와 같은 절차를 통해 진행할 수 있습니다.
 - Vulnerability 관련 상세 정보는 [Vulnerability](7_vulnerability.md) 에서 확인 가능합니다.
 ```
 1. FOSSLight Hub UI에서 확인  
-![self_pop](../images/6_self_pop.png)  
+![self_pop](images/6_self_pop.png)  
 Vulnerability 아이콘을 클릭하면 해당 OSS Name, OSS Version의 취약점 정보가 팝업창으로 제공됩니다.
 
 2. Export 파일로 확인
     - Self-Check Sheet   
-    ![self_check_sheet](../images/6_self_sheet1.png)   
+    ![self_check_sheet](images/6_self_sheet1.png)   
     사용자가 입력한 OSS 리스트가 OSS 보고서 양식에 준하여 기술됩니다.  
     이 탭의 정보는 추후 [Project](4_project.md)의 Identification에서 활용될 수 있습니다.  
     - Vulnerability Sheet  
-    ![self_check_sheet2](../images/6_self_sheet2.png)  
+    ![self_check_sheet2](images/6_self_sheet2.png)  
     취약점 정보가 발견된 OSS의 입력한 버전과 상위 버전의 정보들이 기술됩니다.  
     이 때, Vulnerability Link를 클릭하면 해당 OSS Name, OSS Version의 CVE-ID를 확인 가능합니다.

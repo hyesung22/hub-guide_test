@@ -7,7 +7,7 @@ published: true
 (Admin Only) FOSSLight Hub 운영을 위한 세팅 값을 변경합니다. 
 ```
 
-![config](../images/8-3_configuration.png)
+![config](images/8-3_configuration.png)
 
 ## Authentication using LDAP
 FOSSLight Hub는 JNDI를 사용하여 Active Directory 등 LDAP을 사용할 수 있는 환경에서는 LDAP을 이용한 사용자 패스워드 인증 처리를 지원합니다.

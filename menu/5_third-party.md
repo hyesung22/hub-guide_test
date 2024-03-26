@@ -13,7 +13,7 @@ published: true
 ### 1. 3rd Party Project 생성하기
 1. 3rd Party List 우측 상단의 Add 버튼을 클릭합니다.
 2. New_3rdParty 탭에서 3rd Party 정보를 입력하고 Save합니다.  
-    ![new_tab](../images/3_3rd_new.png)
+    ![new_tab](images/3_3rd_new.png)
 
 ### 2. Open Source 정보 등록
 3rd Party 상세 정보 탭 하단의 OSS Table에 OSS(Open Source Software)정보를 등록합니다. 
