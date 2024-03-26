@@ -1,7 +1,7 @@
 ---
 sort: 6
 published: true
-title: 📑 Learn more
+title: Learn more
 ---
 # Learn more
 
