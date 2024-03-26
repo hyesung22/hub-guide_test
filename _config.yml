@@ -1,18 +1,18 @@
-base_url: /fosslight-guide
-title: FOSSLight Guide
+base_url: /hub-guide
+title: FOSSLight Hub Guide
 lang: ko
-description: FOSSLight Korean Guide
+description: FOSSLight Hub Korean Guide
 
 remote_theme: fosslight/guide_theme
 
-top_link: "https://fosslight.github.io/fosslight-guide-en"
+top_link: "https://fosslight.github.io/hub-guide-en"
 top_link_word: "English"
 
 addons_title: "FOSSLight Homepage"
 addons_url: "https://fosslight.org/ko"
 
 google:
-  gtag: UA-196813776-3
+  gtag: G-7EHWGTQYDY
   
 readme_index:
   with_frontmatter: true
