@@ -8,16 +8,17 @@ FOSSLight Hub에 대한 가이드 목차입니다.
 
 ## FOSSLight Hub 시작 가이드
 - [Quick Start](../started/1_install.md)
-- FOSSLight Hub 메뉴
-  - [로그인 및 계정 등록](../started/2_try/1_sign.md)
-  - [OSS(Open Source Software) 정보](../started/2_try/2_oss.md)
-  - [License 정보](../started/2_try/3_license.md)
-  - [Project](../started/2_try/4_project.md)
-  - [3rd Party](../started/2_try/5_third-party.md)
-  - [Self-Check](../started/2_try/6_self-check.md)
-  - [Vulnerability](../started/2_try/7_vulnerability.md)
-  - [Configuration](../started/2_try/8_configuration.md)
-  - [System](../started/2_try/9_system.md)
+
+## FOSSLight Hub 메뉴
+- [로그인 및 계정 등록](../menu/1_sign.md)
+- [OSS(Open Source Software) 정보](../menu/2_oss.md)
+- [License 정보](../menu/3_license.md)
+- [Project](../menu/4_project.md)
+- [3rd Party](../menu/5_third-party.md)
+- [Self-Check](../menu/6_self-check.md)
+- [Vulnerability](../menu/7_vulnerability.md)
+- [Configuration](../menu/8_configuration.md)
+- [System](../menu/9_system.md)
 
 ## FOSSLight Hub 기본 Tutorial
 - [Project Tutorial](../tutorial/1_project.md) : Project를 등록하여 OSC Process를 순차적으로 수행하기
