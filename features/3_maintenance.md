@@ -18,7 +18,7 @@ $ mysqldump -ufosslight -pfosslight fosslight --no-create-info > fosslight_backu
 
 ### 2. 복구
 1. 버전에 따른 Table 구조를 반영하기 위해 빈 DB를 새로 만들고 기본 값을 설정합니다. 
-[Developer Documentation - 다운로드 & 설치 - 4. Database 생성 및 Data 초기 등록](https://fosslight.org/fosslight-guide/features/1_developer.html#다운로드--설치)
+[Developer Documentation - 다운로드 & 설치 - 4. Database 생성 및 Data 초기 등록](https://fosslight.org/hub-guide/features/1_developer.html#다운로드--설치)
 
 2. 백업한 파일로 복구합니다.
 mysql -u[아이디] -p[패스워드] [데이터베이스명] < [백업파일명].sql
