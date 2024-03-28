@@ -13,7 +13,7 @@ FOSSLight Hub의 Menu별 기능을 소개합니다.
 ## [License](2_license.md)
 License 정보 확인 및 등록
 
-## [Opne Source](3_oss.md)
+## [Open Source](3_oss.md)
 OSS(Open Source Software) 정보 확인 및 등록
 
 ## [Project](4_project.md)
