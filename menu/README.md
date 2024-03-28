@@ -10,11 +10,11 @@ FOSSLight Hub의 Menu별 기능을 소개합니다.
 ## [Sign In & Sign Up](1_sign.md)
 로그인 및 계정 등록
 
-## [OSS List](2_oss.md)
-OSS(Open Source Software) 정보 확인 및 등록
-
-## [License List](3_license.md)
+## [License](2_license.md)
 License 정보 확인 및 등록
+
+## [Opne Source](3_oss.md)
+OSS(Open Source Software) 정보 확인 및 등록
 
 ## [Project](4_project.md)
 Project 등록 및 Process 수행
