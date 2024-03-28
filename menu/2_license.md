@@ -33,6 +33,7 @@ License Name을 클릭하면 License 별 상세정보를 확인할 수 있습니
     - 추가적인 계약이 필요하지는 않지만 제약된 형태, 특정 이용 약관 또는 조건에서 사용할 수 있습니다.
 
 ### Restriction 
+
 |**Restriction 종류**|**내용**|
 |-----|---|
 |**Non-Commercial Use Only**|Software의 상업적 사용 및 배포를 금지합니다. <br>예) CC-BY-NC-X.X|

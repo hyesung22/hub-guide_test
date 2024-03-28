@@ -10,8 +10,8 @@
 
 ### FOSSLight Hub 메뉴
 - [로그인 및 계정 등록](menu/1_sign.md)
-- [OSS(Open Source Software) 정보](menu/2_oss.md)
-- [License 정보](menu/3_license.md)
+- [License 정보](menu/2_license.md)
+- [OSS(Open Source Software) 정보](menu/3_oss.md)
 - [Project](menu/4_project.md)
 - [3rd Party](menu/5_third-party.md)
 - [Self-Check](menu/6_self-check.md)
