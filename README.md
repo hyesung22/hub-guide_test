@@ -28,6 +28,12 @@
 - [REST API](features/2_rest_api.md)
 - [Maintenance](features/3_maintenance.md)
 
+### CONTRIBUTION
+- [Report an issue](contribution/1_contribution.md)
+
+### LEARN MORE
+- [FOSSLight Scanner](learn/2_fosslight_report.md)
+
 ## License
 FOSSLight Hub는 Open Source License인 [AGPL-3.0][agpl]로 배포되고 있습니다.
 
