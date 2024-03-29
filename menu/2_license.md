@@ -56,8 +56,8 @@ License Name을 클릭하면 License 별 상세정보를 확인할 수 있습니
 
 ### Obligation
 License별로 고지 여부와 소스코드 공개 의무사항을 알 수 있습니다.
-- **Notice Obligation**(:page_facing_up:) : 고지 의무가 있습니다.
-- **Source Code Obligation** : 소스코드 공개 의무가 있습니다. 
+- **Notice Obligation**(<img src="images/6_self_check_notice_icon.PNG" width="20" height="20" />) : 고지 의무가 있습니다.
+- **Source Code Obligation**(<img src="images/6_self_check_src_icon.PNG" width="20" height="20" />): 소스코드 공개 의무가 있습니다. 
 
 ### Web site 
 - License 원문의 web site 정보를 제공합니다. URL 클릭 시 해당 사이트로 이동합니다.
@@ -67,21 +67,21 @@ License별로 고지 여부와 소스코드 공개 의무사항을 알 수 있�
 
 ## (Admin Only) License 추가, 수정, 삭제
 ### License 추가
-![NEW_OSS](images/3_lic_new.png)  
-1. License List에서 우측 상단 Add 버튼을 클릭합니다.
+![NEW_OSS](images/3_lic_add.PNG)
+1. License List에서 좌측 상단 Add 버튼을 클릭합니다.
 2. "New_License" 탭에서 신규 OSS의 정보를 입력합니다.
-    - License Name, Nick Name은 중복될 수 없습니다. 
-    - Obligation : 
-        - Notice가 체크된 경우 OSS Notice에 포함됩니다. 
+    - **License Name, Nick Name**은 중복될 수 없습니다. 
+    - **Obligation** : 
+        - Notice가 체크된 경우, OSS Notice에 포함됩니다. 
         - Source Code가 체크된 경우, Packaging탭에서 소스 코드 취합 OSS 목록으로 표시됩니다.
-    - User Guide : 해당 OSS에 대한 정보를 입력합니다.
-    - Attribution : OSS Notice 발행시 별도로 포함되어야 하는 문구를 기입합니다.
-3. 우측 하단의 Save 버튼을 클릭합니다.
+    - **User Guide** : 해당 OSS에 대한 정보를 입력합니다.
+    - **Attribution** : OSS Notice 발행시 별도로 포함되어야 하는 문구를 기입합니다.
+3. 우측 상단의 Save 버튼(<img src="images/save_button.PNG" width="20" height="20" />)을 클릭합니다.
 
 ### License 수정
 1. License List에서 수정할 License Name을 클릭합니다.
 2. License 상세정보 탭에서 수정합니다.
-3. 우측 하단의 Save 버튼을 클릭합니다.
+3. 우측 상단의 Save 버튼을 클릭합니다.
 
 ### License 삭제
 1. License List에서 삭제할 License Name을 클릭합니다.
