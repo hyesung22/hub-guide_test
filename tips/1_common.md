@@ -68,9 +68,9 @@ Pre-Review 버튼을 사용하면 Download Location 기반으로, 시스템에 �
 ![PreReviewLicense](images/2_1_pre_review_opensource.png)
 
 **세부 기능**
-- 작성한 Download location이 redirect되는 경우, redirect url 기준으로 추천된 OSS Name(Registered OSS Name)가 생성되고,
+- 작성한 Download location이 redirect 되는 경우, redirect URL 기준으로 추천된 OSS Name(Registered OSS Name)이 생성되고,
   하단에 redirect url 정보를 확인할 수 있습니다.
-- 접속 할 수 없는 download location의 경우에는 'Registered OSS name(to be changed)'에 
+- 접속할 수 없는 download location의 경우에는 'Registered OSS name(to be changed)'에 
   <span style="color:red">Invalid download location.</span> warning message가 함께 출력됩니다.
 - 추천된 OSS Name을 클릭하면 해당 OSS 상세 정보를 확인할 수 있습니다.
 - 회색 Row로 표시된 경우는 동일한 Download location으로 검색된 OSS 가 2개 이상인 경우입니다.
@@ -81,9 +81,9 @@ Pre-Review 버튼을 사용하면 Download Location 기반으로, 시스템에 �
 
 
 ## Share URL
-프로젝트 정보를 공유하기위해 Share URL 기능을 사용할 수 있습니다.
-View 권한이 없을 경우에도 Share URL을 이용하면 해당 항목의 개요를 확인할 수 있으나,
-공유를 목적으로 하는 기능이기 때문에 정보 수정은 제한됩니다. (단, 로그인 필요)
+프로젝트 정보를 공유하기 위해 Share URL 기능을 사용할 수 있습니다.
+View 권한이 없을 때, Share URL을 이용하면 해당 항목의 개요를 확인할 수 있으나,
+공유를 목적으로 하는 기능이므로 정보 수정은 제한됩니다. (단, 로그인 필요)
 - Project: Project > Project Information에서 Share 버튼을 클릭
   ![ShareUrlProject](images/3_1_share_url_project.png)
 - 3rd Party: 공유하고자 하는 항목에서 Share 버튼을 클릭
@@ -92,11 +92,35 @@ View 권한이 없을 경우에도 Share URL을 이용하면 해당 항목의 �
 ![ShareUrlSelfCheck](images/3_3_share_url_self_check.png)
 
 
-
-## Project / 3rd Party 목록
-Project 및 3rd Party 메뉴에 진입하면 각 목록을 확인할 수 있습니다.
-이 화면에서는 아래 기능을 공통으로 지원합니다.
-
+## 목록 화면 공통 기능
 ### 프로젝트 검색 결과 Export
-### Division 변경
-### Watcher 변경
+리스트 왼쪽 상단의 Export버튼을 클릭하면, 각 메뉴에서 현재 검색된 list를 엑셀 파일로 Export할 수 있습니다.
+- 해당 메뉴: Open Source, License, Project, 3rd party, Self-Check
+> **Warning**
+>
+> 검색결과가 5000개 이상인 경우는 Export 되지 않습니다.
+
+![ListExport](images/4_1_list_export.png)
+
+
+##  Division 변경
+Change > Division 버튼을 통해, 여러 Project / 3rd party SW에 대해 한번에 Division을 변경할 수 있습니다.
+Division 변경은 권한있는 프로젝트에 대해서만 가능합니다.
+- 해당 메뉴: Project, 3rd party
+
+![ChangeDivisionInList](images/4_2_change_division.png)
+
+**변경 방법:**
+1. 목록에서 변경하고자 하는 프로젝트를 선택한다
+2. Change 버튼 클릭 > Division을 클릭한다
+3. 변경하고자하는 Division을 선택하고 OK를 클릭한다.
+
+
+## Watcher 변경
+Change > Watcher 버튼을 통해, 여러 Project / 3rd party SW에 대해 한번에 Watcher를 변경할 수 있습니다.
+Division 변경은 권한있는 프로젝트에 대해서만 가능합니다.
+- 해당 메뉴: Project, 3rd party
+![ChangeWatcherInList](images/4_3_change_watcher.png)
+1. 목록에서 변경하고자 하는 프로젝트를 선택한다
+2. Change 버튼 클릭 > Watcher를 클릭한다
+3. 변경하고자하는 Watcher 정보를 입력하고 OK를 클릭한다.
