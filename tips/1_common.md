@@ -80,23 +80,71 @@ Pre-Review 버튼을 사용하면 Download Location 기반으로, 시스템에 �
 
 
 
-## 프로젝트 정보 공유 (Share URL)
-프로젝트 정보를 공유하기 위해 Share URL 기능을 사용할 수 있습니다.
-View 권한이 없을 때, Share URL을 이용하면 해당 항목의 개요를 확인할 수 있으나,
-공유를 목적으로 하는 기능이므로 정보 수정은 제한됩니다. (단, 로그인 필요)
-- Project: Project > Project Information에서 Share 버튼을 클릭
-  ![ShareUrlProject](images/common/3_1_share_url_project.png)
-- 3rd Party: 공유하고자 하는 항목에서 Share 버튼을 클릭
-  ![ShareUrl3rdPartySW](images/common/3_2_share_url_3rd_party.png)
-- Self-Check: 공유하고자 하는 항목에서 Share 버튼을 클릭
-![ShareUrlSelfCheck](images/common/3_3_share_url_self_check.png)
+## 상세 화면의 공통 기능
+각 상세 화면에서는 화면의 tab bar 오른쪽에 상세화면을 제어할 수 있는 버튼을 제공합니다.
+각 메뉴 별로 현재 사용 가능한 버튼이 보여집니다.
+메뉴 별 예를 들면 아래와 같습니다.
+- Project Information: ![BtnProjectInformation](images/common/3_0_btn_project_information.png)
+- Project Identification: ![BtnProjectIdentification](images/common/3_0_btn_project_identification.png)
+- Self-Check: ![img.png](images/common/3_0_btn_selfcheck.png)
+
+### 정보 공유 버튼 (Share URL)
+![ShareIcon](images/common/3_0_share-nodes-solid.png){: width="1.5%"}
+버튼을 이용하여 현재 아이템의 정보를 공유할 수 있습니다.
+View 권한이 없을 때, Share URL을 이용하면 해당 항목의 개요를 확인할 수 있습니다.
+다만 공유를 목적으로 하는 기능이므로 정보 수정이 되지 않는 View 화면으로 보입니다.
+수정 권한이 있는 경우라면, 수정 가능한 화면으로 보이게 됩니다.
+로그인을 해야 share url로 공유받은 화면을 확인할 수 있습니다.
+
+**공유 예시**
+1. Project > Project Information에서 Share 버튼을 클릭
+  ![ExampleShareURLBtn](images/common/3_0_ex_share_url_project_info.png){: width="80%"}
+2. 공유된 화면을 확인할 수 있습니다. 수정 권한이 있는 경우, 수정 가능한 화면으로 보이게 됩니다.
+  ![ExampleProjectInfoView](images/common/3_0_ex_share_url_project_info_view.png){: width="80%"}
+
+
+### 복사 버튼
+![CopyIcon](images/common/3_1_copy-regular.png){: width="1.5%"}을 이용하여 현재 아이템을 복사합니다. 
+복사 버튼을 누르면, 기존 아이템의 내용이 복사된 채로 새탭이 생성됩니다.
+원하는 세부 내용을 수정한 후 저장하면 복사한 내용이 저장됩니다.
+
+**복사 예시**
+1. Open Source 상세화면에서 Copy 버튼을 클릭합니다.
+   ![ExampleCopyOSS](images/common/3_1_ex_copy_oss.png){: width="80%"}
+2. Open Source 가 복사되면서 복사된 내용으로 채워진 copy_[Open_Source_id]_Opensource 탭을 확인할 수 있습니다.
+   ![ExampleCopyOSSPage](images/common/3_1_ex_copy_oss_page.png){: width="80%"}
+3. 수정하고자 하는 내용으로 업데이트한 후 저장 버튼을 클릭합니다.
+
+> **Note**
+> 
+> Project는 복사 할 때, Process 단계에 맞춰 복사 할 수 있습니다: [Project 복사 Tip](./2_project.md#프로젝트-재사용하기-프로젝트-복사)
+
+### 삭제 버튼
+![DeleteIcon](images/common/1_0_1_trash_can.png){: width="1.5%"}을 클릭하면 현재 아이템을 삭제합니다.
+수정 권한이 없거나, 삭제 할 수 없는 상태인 경우(ex. Project가 Complete 상태 일 때) 삭제 버튼이 보이지 않습니다.
+
+
+### 저장 버튼
+![SaveIcon](images/common/3_3_floppy-disk-solid.png){: width="1.5%"}을 클릭하면 현재 아이템의 내용을 저장합니다.
+수정 권한이 없거나, 변경 불가능한 상태인 경우 저장 버튼이 보이지 않습니다.
+
+### 초기화 버튼
+![ResetIcon](images/common/3_4_rotate-left-solid.png){: width="1.5%"}를 클릭하면 현재 아이템의 내용이 모두 초기화됩니다.
+파일 업로드가 되어있다면 삭제되고, 입력된 내용 또한 모두 지워집니다.
+이 버튼은 분석 정보를 입력하는 화면에서만 보입니다. Project의 Identification, 3rd party SW, Self-Check 에서 확인할 수 있습니다.
+
+
+### 동기화 버튼
+![SyncIcon](images/common/3_5_rotate-solid.png){: width="1.5%"}를 클릭하면 현재 아이템의 내용으로 sync를 진행합니다.
+Open source 화면에서만 제공되는 기능으로 상세 사용법은 
+[Open source sync 방법](../menu/3_oss.html#oss-버전별-정보-일괄-변경-기능)을 참고하시기 바랍니다.
 
 
 ## 목록 화면 공통 기능
 ### 프로젝트 검색 결과 Export
 리스트 왼쪽 상단의 Export버튼을 클릭하면, 각 메뉴에서 현재 검색된 list를 엑셀 파일로 Export할 수 있습니다.
 - 해당 메뉴: Open Source, License, Project, 3rd party, Self-Check
-> **Warning**
+> **Note**
 >
 > 검색결과가 5000개 이상인 경우는 Export 되지 않습니다.
 
@@ -121,6 +169,8 @@ Change > Watcher 버튼을 통해, 여러 Project / 3rd party SW에 대해 한�
 Division 변경은 권한있는 프로젝트에 대해서만 가능합니다.
 - 해당 메뉴: Project, 3rd party
 ![ChangeWatcherInList](images/common/4_3_change_watcher.png)
+
+**변경 방법:**
 1. 목록에서 변경하고자 하는 프로젝트를 선택한다
 2. Change 버튼 클릭 > Watcher를 클릭한다
 3. 변경하고자하는 Watcher 정보를 입력하고 OK를 클릭한다.
