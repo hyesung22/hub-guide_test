@@ -7,31 +7,31 @@ published: true
 ## OSS Table 활용법
 ### OSS Table 상단 버튼
 OSS Table 우측 상단에는 4가지 버튼이 있습니다.
-  ![OSSTableEdit](images/1_0_oss_table_edit.png)
+  ![OSSTableEdit](images/common/1_0_oss_table_edit.png)
 - <img src="images/1_0_0_plus.png" width="15" height="18" />: row가 추가됩니다.
 - <img src="images/1_0_1_trash_can.png" width="15" height="18" />: 선택된 row 삭제됩니다. 선택된 row가 없이 클릭하는 경우, 전체 삭제됩니다.
 - <img src="images/1_0_2_bulk_edit.png" width="15" height="18" />: Bulk Edit 기능으로, 선택된 row에 전체에 대해 동일한 내용으로 업데이트할 수 있습니다. Bulk Edit 클릭 시 아래와 같은 팝업을 확인할 수 있습니다.
   - 수정을 원하는 항목을 선택한 후, 수정하고자 하는 내용을 작성하고 Change를 눌러줍니다.
-    ![BulkEditDetail](images/1_0_2_bulk_edit_detail.png){: width="80%"}
+    ![BulkEditDetail](images/common/1_0_2_bulk_edit_detail.png){: width="80%"}
 - <img src="images/1_0_3_download.png" width="15" height="18" />: OSS Table 내용을 선택한 형식으로 Export 합니다.
   - BOM export의 경우 Report 형태 및 SBOM 관리를 위한 여러 형식으로 출력 가능합니다.<br/>
-    ![ExportListBOM](images/1_0_3_export_popup_2.png){: width="30%"}
+    ![ExportListBOM](images/common/1_0_3_export_popup_2.png){: width="30%"}
   - Project에서 다른 BOM을 제외한 다른 탭들의 경우 FOSSLight Report가 출력됩니다.<br/>
-    ![ExportListOthers](images/1_0_3_export_popup_1.png){: width="30%"}
+    ![ExportListOthers](images/common/1_0_3_export_popup_1.png){: width="30%"}
      
 ### OSS Table Cell 수정
 OSS Table에서 수정하고 싶은 내용이 있을 경우, 수정하고자 하는 row를 더블 클릭 하면 입력 가능한 상태로 전환됩니다.
-![OSSCellEditable](images/1_1_oss_cell_editable.png)
+![OSSCellEditable](images/common/1_1_oss_cell_editable.png)
 
 ### OSS 정보 자동 완성
 시스템에 등록되어 있는 Open Source의 경우, OSS Name과 OSS Version을 통해 저장된 정보를 자동으로 불러올 수 있습니다.
 - OSS Name, OSS Version을 입력합니다.
 - Version 입력 후, 자동 완성 여부를 묻는 팝업을 확인할 수 있습니다. 팝업에서 OK를 누르면 자동 완성이 됩니다.
-![OSSTableAutoFill](images/1_2_oss_table_autofill.png)
+![OSSTableAutoFill](images/common/1_2_oss_table_autofill.png)
 
 ### OSS Table Search
 Header Column 아래 Filter Row가 위치하고 있습니다. 이 Filter Row를 활용하여 원하는 값을 검색할 수 있습니다.
-![OSSTableSearch](images/1_3_oss_table_search.png)
+![OSSTableSearch](images/common/1_3_oss_table_search.png)
 - Filter Row는 다음과 같이 구성됩니다:
   - 검색조건:
 
@@ -45,27 +45,27 @@ Header Column 아래 Filter Row가 위치하고 있습니다. 이 Filter Row를 
 ### OSS의 버전별 정보 조회 기능
 검색하고 싶은 OSS의 ID를 클릭하면, 해당 OSS의 버전별 정보를 조회할 수 있습니다.
 
-![OSSTableSearch](images/1_4_oss_version_detail.png)
+![OSSTableSearch](images/common/1_4_oss_version_detail.png)
 
 - 참고: Open Source 상세 정보 창<br/>
-  ![OSSTableSearch](images/1_4_oss_version_detail_popup.png){: width="70%"}
+  ![OSSTableSearch](images/common/1_4_oss_version_detail_popup.png){: width="70%"}
 
 
-## Pre-Review
+## Download location 정보로 Open Source 검토하기 (Pre-Review) 
 Pre-Review 버튼을 사용하면 Download Location 기반으로, 시스템에 저장된 Open Source 정보 혹은 License 정보를 불러올 수 있습니다.
-![PreReview](images/2_0_pre_review.png)
+![PreReview](images/common/2_0_pre_review.png)
 
 ### License 확인 방법
 1. Pre-Review > License를 클릭합니다.
 2. 'License (to be changed)'의 License로 변경하고 싶은 Row를 선택합니다.
 3. 'Change License'를 클릭 합니다. 변경된 License가 OSS Table에 반영됩니다.
-![PreReviewLicense](images/2_1_pre_review_license.png)
+![PreReviewLicense](images/common/2_1_pre_review_license.png)
 
 ### OpenSource 확인 방법
 1. Pre-Review > Open Source 를 클릭합니다.
 2. 'Registered OSS Name (to be changed)'의 값으로 변경하고자 하는 Row를 선택합니다.
 3. 'Change OSS Name'을 클릭합니다. 변경된 Open Source 이름이 OSS Table에 반영됩니다.
-![PreReviewLicense](images/2_1_pre_review_opensource.png)
+![PreReviewLicense](images/common/2_1_pre_review_opensource.png)
 
 **세부 기능**
 - 작성한 Download location이 redirect 되는 경우, redirect URL 기준으로 추천된 OSS Name(Registered OSS Name)이 생성되고,
@@ -80,16 +80,16 @@ Pre-Review 버튼을 사용하면 Download Location 기반으로, 시스템에 �
 
 
 
-## Share URL
+## 프로젝트 정보 공유 (Share URL)
 프로젝트 정보를 공유하기 위해 Share URL 기능을 사용할 수 있습니다.
 View 권한이 없을 때, Share URL을 이용하면 해당 항목의 개요를 확인할 수 있으나,
 공유를 목적으로 하는 기능이므로 정보 수정은 제한됩니다. (단, 로그인 필요)
 - Project: Project > Project Information에서 Share 버튼을 클릭
-  ![ShareUrlProject](images/3_1_share_url_project.png)
+  ![ShareUrlProject](images/common/3_1_share_url_project.png)
 - 3rd Party: 공유하고자 하는 항목에서 Share 버튼을 클릭
-  ![ShareUrl3rdPartySW](images/3_2_share_url_3rd_party.png)
+  ![ShareUrl3rdPartySW](images/common/3_2_share_url_3rd_party.png)
 - Self-Check: 공유하고자 하는 항목에서 Share 버튼을 클릭
-![ShareUrlSelfCheck](images/3_3_share_url_self_check.png)
+![ShareUrlSelfCheck](images/common/3_3_share_url_self_check.png)
 
 
 ## 목록 화면 공통 기능
@@ -100,15 +100,15 @@ View 권한이 없을 때, Share URL을 이용하면 해당 항목의 개요를 
 >
 > 검색결과가 5000개 이상인 경우는 Export 되지 않습니다.
 
-![ListExport](images/4_1_list_export.png)
+![ListExport](images/common/4_1_list_export.png)
 
 
-##  Division 변경
+###  Division 변경
 Change > Division 버튼을 통해, 여러 Project / 3rd party SW에 대해 한번에 Division을 변경할 수 있습니다.
 Division 변경은 권한있는 프로젝트에 대해서만 가능합니다.
 - 해당 메뉴: Project, 3rd party
 
-![ChangeDivisionInList](images/4_2_change_division.png)
+![ChangeDivisionInList](images/common/4_2_change_division.png)
 
 **변경 방법:**
 1. 목록에서 변경하고자 하는 프로젝트를 선택한다
@@ -116,11 +116,11 @@ Division 변경은 권한있는 프로젝트에 대해서만 가능합니다.
 3. 변경하고자하는 Division을 선택하고 OK를 클릭한다.
 
 
-## Watcher 변경
+### Watcher 변경
 Change > Watcher 버튼을 통해, 여러 Project / 3rd party SW에 대해 한번에 Watcher를 변경할 수 있습니다.
 Division 변경은 권한있는 프로젝트에 대해서만 가능합니다.
 - 해당 메뉴: Project, 3rd party
-![ChangeWatcherInList](images/4_3_change_watcher.png)
+![ChangeWatcherInList](images/common/4_3_change_watcher.png)
 1. 목록에서 변경하고자 하는 프로젝트를 선택한다
 2. Change 버튼 클릭 > Watcher를 클릭한다
 3. 변경하고자하는 Watcher 정보를 입력하고 OK를 클릭한다.
