@@ -18,6 +18,7 @@
 - [Vulnerability](menu/7_vulnerability.md)
 - [Configuration](menu/8_configuration.md)
 - [System](menu/9_system.md)
+- [Binary DB](menu/10_binarydb.md)
 
 ### FOSSLight Hub 기본 Tutorial
 - [Project Tutorial](tutorial/1_project.md) : Project를 등록하여 OSC Process를 순차적으로 수행하기
