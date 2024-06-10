@@ -33,3 +33,6 @@ Open Source의 보안 취약점 존재 여부 및 관련 정보(CVE ID, CVSS Sco
 
 ## [System](9_system.md)
 *(Admin Only)* 시스템 운영 Log 확인 및 운영 Data 설정 변경
+
+## [Binary DB](10_binarydb.md)
+**(LG전자 사내 전용)** 시스템 운영 Log 확인 및 운영 Data 설정 변경
