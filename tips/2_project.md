@@ -7,7 +7,28 @@ published: true
 > **Info**
 >
 > Project 메뉴의 기능들에 대한 Tip 입니다.
- 
+
+## 상단 Status bar
+프로젝트 상단 Status bar를 통해 현재 프로젝트의 상태 확인 및 각 단계로 이동을 쉽게 할 수 있습니다.
+> **Note**
+>
+> Distribution은 LGE only 기능입니다.
+ß
+- 프로젝트의 상태를 확인할 수 있습니다. 몇가지 예를들면 아래와 같습니다.
+  - Progress (Distribution): <br/>
+    ![StatusBarProgress](images/project/status_bar/status_dist_progress.png){: width="60%"}
+  - Request (Identification):<br/>
+    ![StatusBarRequest](images/project/status_bar/status_iden_request.png){: width="60%"}
+  - Review (Packaging):<br/>
+    ![StatusBarReview](images/project/status_bar/status_pack_review.png){: width="60%"}
+  - FinalReview:<br/>
+    ![StatusBarFinalReview](images/project/status_bar/status_final_review.png){: width="60%"}
+  - Complete:<br/>
+    ![StatusBarComplete](images/project/status_bar/status_complete.png){: width="60%"}
+- 버튼 클릭 시 각 단계 화면으로 이동할 수 있습니다.
+  ![StatusBarTab](images/project/status_bar/status_bar_tab.png){: width="80%"}
+
+
 
 ## 프로젝트 간 BOM 비교 (Bom Compare)
 두 프로젝트의 BOM을 비교하는 기능입니다.
@@ -34,16 +55,17 @@ published: true
 **복사할 Process 단계 선택하기**
 
 Copy 할 때, 복사할 단계를 선택할 수 있습니다. (OSC Process 단계 참고: [Project 메뉴 가이드](../menu/4_project.md))
-![StatusPopup](images/project/2_0_project_copy_status_popup.png){: width="80%"}
+![StatusPopup](images/project/2_0_project_copy_status_popup.png)
 - Identification Progress: 사용하는 Open Source가 변경되어 Identification 단계부터 진행이 필요한경우
 - Identification Confirm: packaging 파일 변경 또는 고지문 수정이 필요한 경우
 - Packaging Confirm: 기존 프로젝트와 변동사항이 없는경우
 
 ## 특정 오픈소스가 포함된 프로젝트 검색
 
+
 ## 오픈소스 고지문 종류와 다운로드 방법
 
-## 상단 Status bar
+
 
 ## 다른 프로젝트 분석결과 불러오기
  
