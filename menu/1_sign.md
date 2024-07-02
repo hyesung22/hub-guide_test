@@ -14,7 +14,7 @@ FOSSLight Hub 로그인 및 계정 등록 방법을 설명합니다.
    - AD계정으로 로그인 할 수 있습니다.<U>(Sign Up 불필요)</U>
    - 최초 로그인 시, Division 입력 안내 popup 창이 뜹니다.
     ![SignIn](images/1_sign_in_first_popup.PNG)
-   - OK를 선택 시, User Setting 화면이 load되어 Division 정보를 수정 할 수 있습니다.
+   - OK를 선택 시, User Setting 화면으로 이동하여 Division 정보를 설정할 수 있습니다.
 
 ## Sign Up 
 ![SignUp](images/1_sign_up.PNG)  
