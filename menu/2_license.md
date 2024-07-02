@@ -19,16 +19,16 @@ License Name을 클릭하면 License 별 상세정보를 확인할 수 있습니
 
 ### License Type 
 - **Permissive**
-    - BSD-like 또는 BSD-style License로 불리며 Software 재배포 방법 관련 최소한의 요구사항이 있는 License입니다. 
+    - BSD-like 또는 BSD-style License로 불리며 Software 배포시 최소한의 요구사항이 있는 License입니다. 
     - 통상적으로 Copyright Notice와 보증부인 문구를 유지할 것을 요구합니다. 
 - **Weak Copyleft**
     - 파생저작물에 동일한 권리가 유지된다는 조건으로 저작물의 복사본과 수정된 버전을 자유롭게 배포할 수 있습니다.
-    - 저작물의 복사본과 수정본의 Source Code를 공개해야 합니다.
+    - 원 저작물과 수정본의 소스 코드를 공개해야 합니다.
 - **Copyleft**
     - 파생저작물에 동일한 권리가 유지된다는 조건으로 저작물의 복사본과 수정된 버전을 자유롭게 배포할 수 있습니다.
-    - 저작물의 복사본과 수정본뿐만 아니라 이와 link 되거나 함께 동작하는 프로그램 전체 Source Code를 공개해야 합니다.
+    - 웑 저작물과 수정본뿐만 아니라 이와 link 되거나 함께 동작하는 프로그램 전체 소스 코드를 공개해야 합니다.
 - **Proprietary**
-    - Software 권리자의 허락 없이 사용이 불가능하므로 반드시 source code 사용 여부에 대한 계약 관계를 확인하고 사용하시기 바랍니다.
+    - Software 권리자의 허락 없이 사용이 불가능하므로 반드시 소스 코드 사용 여부에 대한 계약 관계를 확인하고 사용하시기 바랍니다.
 - **Proprietary Free**
     - 추가적인 계약이 필요하지는 않지만 제약된 형태, 특정 이용 약관 또는 조건에서 사용할 수 있습니다.
 
@@ -55,7 +55,7 @@ License Name을 클릭하면 License 별 상세정보를 확인할 수 있습니
 |**Use Restriction**|사용자 수, 사용 국가 등 사용에 제한이 있습니다. |
 
 ### Obligation
-License별로 고지 여부와 소스코드 공개 의무사항을 알 수 있습니다.
+License별로 고지와 소스코드 공개 의무사항을 알 수 있습니다.
 - **Notice Obligation**(<img src="images/6_self_check_notice_icon.PNG" width="20" height="20" />) : 고지 의무가 있습니다.
 - **Source Code Obligation**(<img src="images/6_self_check_src_icon.PNG" width="20" height="20" />): 소스코드 공개 의무가 있습니다. 
 
@@ -73,7 +73,7 @@ License별로 고지 여부와 소스코드 공개 의무사항을 알 수 있�
     - **License Name, Nick Name**은 중복될 수 없습니다. 
     - **Obligation** : 
         - Notice가 체크된 경우, OSS Notice에 포함됩니다. 
-        - Source Code가 체크된 경우, Packaging탭에서 소스 코드 취합 OSS 목록으로 표시됩니다.
+        - Source Code가 체크된 경우, Packaging 탭에서 소스 코드 취합 OSS 목록으로 표시됩니다.
     - **User Guide** : 해당 OSS에 대한 정보를 입력합니다.
     - **Attribution** : OSS Notice 발행시 별도로 포함되어야 하는 문구를 기입합니다.
 3. 우측 상단의 Save 버튼(<img src="images/save_button.PNG" width="20" height="20" />)을 클릭합니다.
