@@ -1,8 +1,11 @@
 ---
-sort: 10
+sort: 6
 published: true
 ---
 # Binary DB
+```note
+ Binary DB는 LG전자 사내 전용 메뉴입니다.
+```
 ```note
  이미 분석이 완료된 Base Model의 Binary 정보를 Database화(Binary DB) 하고, 이를 활용하여 파생 Model의 Binary 분석을 자동화할 수 있습니다.
 ```
@@ -14,11 +17,12 @@ published: true
 -  binary.txt: checksum, tlsh값을 포함하는 binary 목록
 
 ![binarytxt](images/11_upload_binary_txt.PNG)
-
+<br>
 ```note
 - [FOSSLight Binary Scanner v4.1.30](https://github.com/fosslight/fosslight_binary_scanner/)이후 버전 사용 시, FOSSLight Report의 Binary Sheet에서 TLSH, Checksum 값 확인 가능. (binary.txt 파일 필요 X)
 ```
 
+<br>
 - Binary Name 하단에서는 Binary DB내의 Binary와 동일(또는 유사)한지 여부에 대한 정보를 Warning message로 보여줍니다.
 ![binaryafterupload](images/11_after_upload.PNG)
 #### < Warning Message >
