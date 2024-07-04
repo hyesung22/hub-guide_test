@@ -17,7 +17,7 @@ published: true
 ### 2. 3rd Party SW 등록
 ![3rd_party_list](images/5_third_party_list.PNG)
 1. 왼쪽 메뉴에서 3rd Party List를 클릭합니다.
-2. 3rd Party List 왼쪽 상단의 Add 버튼을 클릭합니다.
+2. 3rd Party List 왼쪽 상단의 **Add** 버튼을 클릭합니다.
 3. 아래와 같이 New_3rdParty 탭에서 3rd Party 정보를 입력하고 Save합니다.  
     ![3rd_party_new](images/5_third_party_new.PNG)
 4. 각각의 정보를 입력하고, 준비한 **3rd Party OSS Checklist** 파일을 업로드 합니다.
@@ -40,14 +40,14 @@ published: true
 
 
 ### 3. Request
-1. 3rd Party SW 정보를 입력 후 상단의 Save 버튼(<img src="images/save_button.PNG" width="20" height="20" />)을 클릭합니다.
+1. 3rd Party SW 정보를 입력 후 상단의 **Save** 버튼(<img src="images/save_button.PNG" width="20" height="20" />)을 클릭합니다.
     ![3rd_party_save](images/5_third_party_save.PNG)
 2. Save 후, 해당 SW를 다시 클릭하여 들어갑니다.
     ![3rd_party_save](images/5_third_party_save_2.PNG)
-3. 로드된 OSS에 대해 중간 좌측의 Pre-Review를 진행합니다. (Open Source, License 모두)
+3. 로드된 OSS에 대해 중간 좌측의 **Pre-Review**를 진행합니다. (Open Source, License 모두)
     ![3rd_party_save](images/5_third_party_save_3.PNG)
 4. 수정된 내용이 있다면 Save 버튼(<img src="images/save_button.PNG" width="20" height="20" />)을 한 번 더 클릭합니다.
-5. 우측 상단의 Request 버튼을 클릭하여 리뷰를 요청합니다.
+5. 우측 상단의 **Request** 버튼을 클릭하여 리뷰를 요청합니다.
     ![3rd_party_save](images/5_third_party_save_5_request.PNG)
 
 ## 참고
@@ -58,7 +58,7 @@ published: true
 
 ## (Admin Only) 3rd Party Review
 1. 3rd Party List에서 Status : Request인 3rd Party를 더블 클릭합니다. 
-2. 우측 상단의 Review Start를 클릭합니다. 
+2. 우측 상단의 **Review Start**를 클릭합니다. 
     - Status: Review로 변경됩니다. 
 3. OSS Table의 빨간색 Warning message에 대하여 검토합니다. 
     - OSS Table에 빨간색 Warning message가 있을 경우, Confirm이 불가합니다. 

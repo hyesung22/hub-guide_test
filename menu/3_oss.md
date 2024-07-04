@@ -66,12 +66,12 @@ License 별로 고지와 소스코드 공개 의무사항을 알 수 있습니�
 ## (Admin Only) OSS 추가, 수정, 복사, 삭제, 일괄 변경
 ### OSS 추가
 ![NEW_OSS](images/2_oss_add_new.PNG) 
-1. OSS List에서 우측 상단 Add 버튼을 클릭합니다.
+1. OSS List에서 좌측 상단 **Add** 버튼을 클릭합니다.
 2. "New_Opensource" 탭에서 신규 OSS의 정보를 입력합니다.
     - OSS Name, Nick Name은 중복될 수 없습니다. 
     - Summary Description : 해당 OSS에 대한 정보를 입력합니다.
     - Attribution : OSS Notice 발행시 별도로 포함되어야 하는 문구를 기입합니다.
-3. 우측 하단의 Save 버튼을 클릭합니다.
+3. 우측 상단의 **Save** 버튼을 클릭합니다.
 
 ### OSS 상세정보탭
 OSS List에서 OSS Name을 클릭합니다.    
@@ -79,18 +79,18 @@ Admin 인 경우에만 Editable하게 표시되며 Save, Sync, Copy, Delete 버�
 ![OSS_DETAIL](images/2_oss_detail.PNG)  
 
 #### OSS 수정
-- 정보를 수정한 후 우측 상단의 Save 버튼을 클릭합니다.
+- 정보를 수정한 후 우측 상단의 **Save** 버튼을 클릭합니다.
 
 #### OSS 복사
 OSS 복사 기능은 동일한 OSS의 다른 버전을 추가할 때 유용합니다.
-1. 우측 하단의 Copy 버튼을 클릭합니다. 
-2. 동일한 OSS 정보로 "New_Opensource"탭이 뜹니다.
+1. 우측 상단의 **Copy** 버튼을 클릭합니다. 
+2. 동일한 OSS 정보로 "New_Opensource" 탭이 뜹니다.
 3. 이때, OSS Version에 "_Copied"가 append 되어 있으므로 버전 정보를 수정해야 합니다.  
-4. 정보 수정 후 우측 상단의 Save 버튼을 클릭하면 OSS가 등록됩니다.
+4. 정보 수정 후 우측 상단의 **Save** 버튼을 클릭하면 OSS가 등록됩니다.
 
 #### OSS 삭제
 1. Comment란에 삭제 사유를 기입합니다.
-2. 우측 상단의 Delete 버튼을 클릭합니다.
+2. 우측 상단의 **Delete** 버튼을 클릭합니다.
     - 📢 해당 OSS가 Identification 단계가 Confirm된 Project에 포함된 경우, Delete 버튼 클릭 시 다른 OSS로 Merge 하는 창이 팝업됩니다.   
     ![NEW_OSS](images/2_oss_rename.PNG)
         - Merge할 OSS를 선택하면, 삭제하는 OSS의 Name과 NickName은 Merge하는 OSS의 Nickname으로 이동됩니다.
@@ -98,7 +98,7 @@ OSS 복사 기능은 동일한 OSS의 다른 버전을 추가할 때 유용합�
 
 #### OSS 버전별 정보 일괄 변경 기능
 OSS에 여러 버전이 등록된 경우, 각 버전별 정보를 일괄 업데이트시 사용합니다.
-우측 상단의 Sync 버튼을 클릭합니다.
+우측 상단의 **Sync** 버튼을 클릭합니다.
 ![OSS_SYNC](images/2_oss_sync.PNG)  
 - (1) 수정할 OSS 버전을 선택합니다. 
     - 이미 동일한 OSS 정보를 가진 버전의 경우, 회색으로 표시되며 선택 불가합니다.
