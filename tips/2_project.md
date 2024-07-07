@@ -140,7 +140,7 @@ FOSSLight Hub에서 발급 가능한 OSS 고지문 종류입니다.
 ### Description 수정
 1. Distribution 탭으로 이동합니다.
 2. Description을 원하는 내용으로 수정 후 
-   저장(![SaveIcon](images/common/3_3_floppy-disk-solid.png){: width="1.5%"})버튼을 클릭합니다.<br/>
+   저장(![SaveIcon](images/common/information_view_button/floppy-disk-solid.png){: width="1.5%"})버튼을 클릭합니다.<br/>
    ![DescriptionEdit](images/project/distribution/dist_description.png){: width="80%"}
 3. Distribution Information(To be Updated)화면에 업데이트 되는 정보를 확인한 후 "Distribute" 버튼을 클릭합니다.<br/>
    ![DistDescriptionUpdate](images/project/distribution/dist_description_update.png)
@@ -157,7 +157,7 @@ FOSSLight Hub에서 발급 가능한 OSS 고지문 종류입니다.
    ![DistPackagingComplete](images/project/distribution/dist_packaging_complete.png){: width="80%"}
    - Verify 실패한 경우 재시도 할 것인지 팝업이 나타납니다. 
    - 계속 실패한다면, 업로드한 파일이 기존 Packaging탭에서 작성한 Path 정보와 일치하는지 다시 확인합니다.
-5. Distribution 탭의 저장(![SaveIcon](images/common/3_3_floppy-disk-solid.png){: width="1.5%"})버튼을 클릭합니다. 
+5. Distribution 탭의 저장(![SaveIcon](images/common/information_view_button/floppy-disk-solid.png){: width="1.5%"})버튼을 클릭합니다. 
    Distribution Information(To be Updated)화면에 업데이트 되는 정보를 확인한 후 "Distribute" 버튼을 클릭합니다.<br/>
    ![DistPackagingUpdateConfirm](images/project/distribution/dist_packaging_update.png){: width="80%"}
 
@@ -166,7 +166,7 @@ FOSSLight Hub에서 발급 가능한 OSS 고지문 종류입니다.
 1. Distribution 탭으로 이동합니다.
 2. Model Information에 추가/삭제 버튼을 이용하여 변경하고자 하는 모델 정보를 입력합니다.<br/>
    ![DistModelInfo](images/project/distribution/dist_model_info.png){: width="80%"}
-3. Distribution 탭의 저장(![SaveIcon](images/common/3_3_floppy-disk-solid.png){: width="1.5%"})버튼을 클릭합니다.
+3. Distribution 탭의 저장(![SaveIcon](images/common/information_view_button/floppy-disk-solid.png){: width="1.5%"})버튼을 클릭합니다.
    Distribution Information(To be Updated)화면에 업데이트 되는 정보를 확인한 후 "Distribute" 버튼을 클릭합니다.<br/>
    ![DistModelInfoUpdate](images/project/distribution/dist_model_info_update.png){: width="80%"}
 
