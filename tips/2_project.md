@@ -37,9 +37,9 @@ published: true
 **BOM 비교 방법**
 1. 프로젝트 목록에서 비교하고자하는 프로젝트를 2개를 선택합니다.
 2. BOM Compare 버튼을 클릭합니다.
-   ![BOMCompare](images/project/1_0_bom_compare_how.png){: width="80%"}
+   ![BOMCompare](images/project/bom_compare/bom_compare_how.png){: width="80%"}
 3. BOM 목록을 비교하는 탭이 보여집니다. before, after 프로젝트간 차이를 확인할 수 있습니다.
-  ![BOMCompareResult](images/project/1_1_bom_compare_result.png){: width="80%"}
+  ![BOMCompareResult](images/project/bom_compare/bom_compare_result.png){: width="80%"}
 
 ## 프로젝트 재사용하기 (프로젝트 복사)
 프로젝트를 복사하여 이전 분석 내용을 재사용할 수 있습니다.
@@ -55,7 +55,7 @@ published: true
 **복사할 Process 단계 선택하기**
 
 Copy 할 때, 복사할 단계를 선택할 수 있습니다. (OSC Process 단계 참고: [Project 메뉴 가이드](../menu/4_project.md))
-![StatusPopup](images/project/2_0_project_copy_status_popup.png)
+![StatusPopup](images/project/copy_project/project_copy_status_popup.png)
 - Identification Progress: 사용하는 Open Source가 변경되어 Identification 단계부터 진행이 필요한경우
 - Identification Confirm: packaging 파일 변경 또는 고지문 수정이 필요한 경우
 - Packaging Confirm: 기존 프로젝트와 변동사항이 없는경우
