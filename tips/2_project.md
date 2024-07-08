@@ -149,7 +149,7 @@ FOSSLight Hub에서 발급 가능한 OSS 고지문 종류입니다.
 배포가 완료되었으나 minor 변경이 필요하여 Package 파일을 수정하고 싶은 경우 사용합니다. (ex. README 파일 보완)
 1. Distribution 탭으로 이동합니다.
 2. 수정하고자 하는 Package File 오른쪽의 'X'버튼을 클릭합니다.<br/>
-   ![DistPackagingDelete](images/project/distribution/dist_packaging_delete.png)
+   ![DistPackagingDelete](images/project/distribution/dist_packaging_delete.png){: width="45%"}
 3. Upload 버튼을 클릭하여 변경할 OSS Package 파일을 업로드하고, 'Updated'가 표시되면서 정상적으로 업로드된 것을 확인한 뒤,
    Start to Verify 버튼을 클릭합니다.<br/>
    ![DistPackagingStartVerify](images/project/distribution/dist_packaging_start_verify.png){: width="80%"}
