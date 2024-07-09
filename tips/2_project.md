@@ -89,19 +89,37 @@ Pacakging 단계가 confirm 되면 OSS 고지문을 다운로드 받을 수 있�
 FOSSLight Hub에서 발급 가능한 OSS 고지문 종류입니다.
 - Html
   - 일반적인 OSS 고지문 형식으로 사용한 OSS에 대하여 OSS Name, OSS Version, License, Copyright text, License text, Homepage를 출력합니다.
+  - Example: [OSS Notice Html](oss_notice_format/OSSNotice-4022_Sample%20Project_2021_20211230211005.html)
 - Text
   - Html 형식과 contents가 동일하나, 일반 text 파일 형식으로 출력하는 OSS 고지문입니다.
+  - Example: [OSS Notice Text](oss_notice_format/OSSNotice-4022_Sample%20Project_2021_20211230211005.txt)
 - Simple HTML
   - Html 형식의 OSS Notice와 동일하나, License 원문 대신 License 원문을 확인할 수 있는 링크로 대체된 OSS 고지문입니다. 
+  - Example: [OSS Notice Simple HTML](oss_notice_format/simple_OSSNotice-4022_Sample%20Project_2021_20211230211010.html)
 - Simple Text
   - Simple HTML과 동일하나 파일 형식이 text인 OSS 고지문입니다.
+  - Example: [OSS Notice Simple Text](oss_notice_format/simple_OSSNotice-4022_Sample%20Project_2021_20211230211010.txt)
 - SPDX(SpreadSheet)
+  - SPDX(SpreadSheet)형식으로 OSS Notice를 출력하는 OSS 고지문입니다.
+  - Example: [OSS Notice SPDX (SpreadSheet)](oss_notice_format/SPDXRdf-SampleProject-2021_20211230.xls)
 - SPDX(RDF)
+  - SPDX(RDF)형식으로 OSS Notice를 출력하는 OSS 고지문입니다.
+  - Example: [OSS Notice SPDX (RDF)](oss_notice_format/SPDXRdf-SampleProject-2021_20211230.rdf)
 - SPDX(TAG)
+  - SPDX(TAG)형식으로 OSS Notice를 출력하는 OSS 고지문입니다.
+  - Example: [OSS Notice SPDX (TAG)](oss_notice_format/SPDXRdf-SampleProject-2021_20211230.tag) 
 - SPDX(JSON)
+  - SPDX(JSON)형식으로 OSS Notice를 출력하는 OSS 고지문입니다.
+  - Example: [OSS Notice SPDX (JSON)](oss_notice_format/SPDXRdf-SampleProject-2021_20211230.json)
 - SPDX(YAML)
+  - SPDX(YAML)형식으로 OSS Notice를 출력하는 OSS 고지문입니다.
+  - Example: [OSS Notice SPDX (YAML)](oss_notice_format/SPDXRdf-SampleProject-2021_20211230.yaml)
 - CycloneDX(JSON)
+  - CycloneDX(JSON)형식으로 OSS Notice를 출력하는 OSS 고지문입니다.
+  - Example: [OSS Notice CycloneDX (JSON)](oss_notice_format/CycloneDX-testproject.json)
 - CycloneDX(XML)
+  - CycloneDX(XML)형식으로 OSS Notice를 출력하는 OSS 고지문입니다.
+  - Example: [OSS Notice CycloneDX (XML)](oss_notice_format/CycloneDX-testproject.xml)
 
 ### 다른 고지문 포맷으로 발급하는 방법
 기본 형식인 html 형식 외, 다른 형식의 OSS 고지문 발행이 필요한 경우 Packaging단계의 Notice탭에서 산택하시기 바랍니다.
@@ -178,5 +196,9 @@ Notice를 수정하기 위해서는 **Packaging 단계 재수행**이 필요합�
 3. Reviewer가 확인 후 Reopen을 승인하면, Packaging 탭에 들어가 변경하려는 정보로 notice를 수정한 후 리뷰요청합니다.
 4. Packaging 단계가 완료되면, Distribution을 다시 진행합니다.
 
-### Distribution 취소 
-
+### Distribution 취소
+Distribution을 취소하고 싶은 경우 다음과 같이 진행합니다.
+1. Complete된 프로젝트의 Project Information에서 "Reopen" 버튼을 클릭합니다.
+2. Reopen 팝업에서 "Distribution"을 선택한 후, Reject 사유를 적고 OK를 누릅니다.
+   ![DistReopenProject](images/project/distribution/dist_complete_prj_reopen.png){: width="80%"}
+3. Reviewer가 확인 후 Reopen 합니다. Distribution 단계가 취소됩니다.

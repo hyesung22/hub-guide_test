@@ -1,0 +1,100 @@
+{
+  "SPDXID" : "SPDXRef-DOCUMENT",
+  "spdxVersion" : "SPDX-2.2",
+  "creationInfo" : {
+    "created" : "2021-12-30T21:10:20Z",
+    "creators" : [ "Person: soim.kim (soim.kim@lge.com)", "Organization: LG Electronics (opensource@lge.com)", "Tool: SPDXTools-2.2.2" ],
+    "licenseListVersion" : "3.10"
+  },
+  "name" : "Sample Project-2021",
+  "dataLicense" : "CC0-1.0",
+  "documentNamespace" : "http://osc.lge.comSPDXRef-SampleProject-2021-202112300910",
+  "documentDescribes" : [ "SPDXRef-Package-5536", "SPDXRef-Package-5702", "SPDXRef-Package-2924", "SPDXRef-Package-3836", "SPDXRef-Package-534" ],
+  "packages" : [ {
+    "SPDXID" : "SPDXRef-Package-534",
+    "copyrightText" : "NOASSERTION",
+    "downloadLocation" : "https://www.kernel.org/pub/linux/utils/usb/usbutils",
+    "filesAnalyzed" : false,
+    "homepage" : "http://www.linux-usb.org",
+    "licenseConcluded" : "GPL-2.0",
+    "licenseDeclared" : "GPL-2.0",
+    "licenseInfoFromFiles" : [ "GPL-2.0" ],
+    "name" : "usbutils",
+    "originator" : "Organization: \"\"",
+    "supplier" : "Person: \"\"",
+    "versionInfo" : "007"
+  }, {
+    "SPDXID" : "SPDXRef-Package-3836",
+    "copyrightText" : "Copyright (c) 2016 Yocto Project, A Linux Foundation Collaborative Project.",
+    "downloadLocation" : "https://layers.openembedded.org/layerindex/recipe/577",
+    "filesAnalyzed" : false,
+    "homepage" : "https://github.com/openembedded/openembedded-core/tree/master/meta/recipes-core/base-files",
+    "licenseConcluded" : "GPL-2.0",
+    "licenseDeclared" : "GPL-2.0",
+    "licenseInfoFromFiles" : [ "GPL-2.0" ],
+    "name" : "base-files",
+    "originator" : "Organization: \"\"",
+    "supplier" : "Person: \"\"",
+    "versionInfo" : "3.0.14"
+  }, {
+    "SPDXID" : "SPDXRef-Package-5536",
+    "copyrightText" : "Copyright (c) 2011-2015 Charles Scalesse.",
+    "downloadLocation" : "https://github.com/scalessec/Toast/releases",
+    "filesAnalyzed" : false,
+    "homepage" : "https://github.com/scalessec/Toast",
+    "licenseConcluded" : "MIT",
+    "licenseDeclared" : "MIT",
+    "licenseInfoFromFiles" : [ "MIT" ],
+    "name" : "Toast",
+    "originator" : "Organization: \"\"",
+    "supplier" : "Person: \"\"",
+    "versionInfo" : "3.1.0"
+  }, {
+    "SPDXID" : "SPDXRef-Package-2924",
+    "copyrightText" : "Copyright (c) 2003, 2004 Porchdog Software\nCopyright (c) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.",
+    "downloadLocation" : "http://pkgs.fedoraproject.org/repo/pkgs/avahi/avahi-0.6.31.tar.gz",
+    "filesAnalyzed" : false,
+    "homepage" : "http://avahi.org",
+    "licenseConcluded" : "LGPL-2.1",
+    "licenseDeclared" : "LGPL-2.1",
+    "licenseInfoFromFiles" : [ "LGPL-2.1" ],
+    "name" : "avahi",
+    "originator" : "Organization: \"\"",
+    "supplier" : "Person: \"\"",
+    "versionInfo" : "0.6.31"
+  }, {
+    "SPDXID" : "SPDXRef-Package-5702",
+    "copyrightText" : "Copyright (c) 1996, Rik E. Faith\nCopyright (c) 1999, Avery Pennarun",
+    "downloadLocation" : "http://apenwarr.ca/apmd",
+    "filesAnalyzed" : false,
+    "homepage" : "http://apenwarr.ca/apmd",
+    "licenseConcluded" : "GPL-2.0",
+    "licenseDeclared" : "GPL-2.0",
+    "licenseInfoFromFiles" : [ "GPL-2.0" ],
+    "name" : "apmd",
+    "originator" : "Organization: \"\"",
+    "supplier" : "Person: \"\"",
+    "versionInfo" : "3.2.2-14"
+  } ],
+  "relationships" : [ {
+    "spdxElementId" : "SPDXRef-DOCUMENT",
+    "relatedSpdxElement" : "SPDXRef-Package-5536",
+    "relationshipType" : "DESCRIBES"
+  }, {
+    "spdxElementId" : "SPDXRef-DOCUMENT",
+    "relatedSpdxElement" : "SPDXRef-Package-5702",
+    "relationshipType" : "DESCRIBES"
+  }, {
+    "spdxElementId" : "SPDXRef-DOCUMENT",
+    "relatedSpdxElement" : "SPDXRef-Package-2924",
+    "relationshipType" : "DESCRIBES"
+  }, {
+    "spdxElementId" : "SPDXRef-DOCUMENT",
+    "relatedSpdxElement" : "SPDXRef-Package-3836",
+    "relationshipType" : "DESCRIBES"
+  }, {
+    "spdxElementId" : "SPDXRef-DOCUMENT",
+    "relatedSpdxElement" : "SPDXRef-Package-534",
+    "relationshipType" : "DESCRIBES"
+  } ]
+}

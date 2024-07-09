@@ -1,0 +1,32 @@
+### Open Source Software Notice ###
+
+This product from LG Electronics, Inc. contains the open source software detailed below. Please refer to the indicated open source licenses (as are included following this notice) for the terms and conditions of their use.
+
+base-files 3.0.14 (GPL-2.0)
+Copyright (c) 2016 Yocto Project, A Linux Foundation Collaborative Project.
+
+usbutils 007 (GPL-2.0)
+
+
+avahi 0.6.31 (LGPL-2.1)
+Copyright (c) 2003, 2004 Porchdog Software
+Copyright (c) 1994, 1995, 1996, 1997, 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010, 2011 Free Software Foundation, Inc.
+
+apmd 3.2.2-14 (GPL-2.0)
+Copyright (c) 1996, Rik E. Faith
+Copyright (c) 1999, Avery Pennarun
+
+The source code for the above may be obtained free of charge from LG Electronics, Inc. at https://opensource.lge.com.LG Electronics, Inc. will also provide open source code to you on CD-ROM for a charge covering the cost of performing such distribution (such as the cost of media, shipping, and handling) upon email request to opensource@lge.com. This offer is valid for a period of three years after our last shipment of this product. This offer is valid to anyone in receipt of this information.
+Please be informed that  LG Electronics, Inc.   product may contain open source software listed in to tables below.
+
+Toast 3.1.0 (MIT)
+Copyright (c) 2011-2015 Charles Scalesse.
+
+		
+
+GPL-2.0 : https://opensource.lge.com/license/GPL-2.0.html
+LGPL-2.1 : https://opensource.lge.com/license/LGPL-2.1.html
+MIT : https://opensource.lge.com/license/MIT.html
+		
+  
+(OSSNotice-4022_Sample Project_2021_211230)
