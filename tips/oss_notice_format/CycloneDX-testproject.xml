@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bom version="1" xmlns="http://cyclonedx.org/schema/bom/1.4">
+  <metadata>
+    <timestamp>2023-10-12T01:23:01Z</timestamp>
+    <tools>
+      <tool>
+        <vendor>LG Electronics</vendor>
+        <name>FOSSLIhgt Hub</name>
+        <version>1.6.1</version>
+      </tool>
+    </tools>
+    <authors>
+      <author>
+        <name>jiyeong.seok</name>
+      </author>
+    </authors>
+    <supplier>
+      <name>LG Electronics</name>
+      <url>https://opensource.lge.com</url>
+    </supplier>
+  </metadata>
+  <components>
+    <component type="library" bom-ref="50547058">
+      <name>curl</name>
+      <licenses>
+        <license>
+          <id>curl</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 1996 - 2008, Daniel Stenberg, &lt;daniel@haxx.se>.</copyright>
+      <externalReferences><reference type="website"><url>https://github.com/curl/curl/releases</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="50547057">
+      <name>curl</name>
+      <version>7.21.7</version>
+      <licenses>
+        <license>
+          <id>curl</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 1998 - 2011, Daniel Stenberg, &lt;daniel@haxx.se>, et al.</copyright>
+      <externalReferences><reference type="website"><url>https://curl.haxx.se/download</url></reference></externalReferences>
+    </component>
+    <component type="library" bom-ref="50547059">
+      <name>npm:@kurkle/color</name>
+      <version>0.3.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2018-2021 Jukka Kurkela</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547060">
+      <name>npm:anymatch</name>
+      <version>3.1.3</version>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2019 Elan Shanker, Paul Miller (https://paulmillr.com)</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547061">
+      <name>npm:binary-extensions</name>
+      <version>2.2.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2019 Sindre Sorhus &lt;sindresorhus@gmail.com> (https://sindresorhus.com), Paul Miller (https://paulmillr.com)</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547062">
+      <name>npm:braces</name>
+      <version>3.0.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2014-2018, Jon Schlinkert.</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547063">
+      <name>npm:chart.js</name>
+      <version>4.3.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2014-2022 Chart.js Contributors</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547064">
+      <name>npm:chartist</name>
+      <version>0.11.4</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+        <license>
+          <id>WTFPL</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2013 Gion Kunz &lt;gion.kunz@gmail.com>
+Copyright (c) 2004 Sam Hocevar &lt;sam@hocevar.net></copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547065">
+      <name>npm:chokidar</name>
+      <version>3.5.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2012-2019 Paul Miller (https://paulmillr.com), Elan Shanker</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547066">
+      <name>npm:classnames</name>
+      <version>2.3.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2018 Jed Watson</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547067">
+      <name>npm:fill-range</name>
+      <version>7.0.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2014-present, Jon Schlinkert.</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547068">
+      <name>npm:glob-parent</name>
+      <version>5.1.2</version>
+      <licenses>
+        <license>
+          <id>ISC</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2015, 2019 Elan Shanker</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547069">
+      <name>npm:immutable</name>
+      <version>4.3.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2014-present, Lee Byron and other contributors</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547070">
+      <name>npm:is-binary-path</name>
+      <version>2.1.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) Sindre Sorhus &lt;sindresorhus@gmail.com> (sindresorhus.com)</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547071">
+      <name>npm:is-extglob</name>
+      <version>2.1.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2014-2015, Jon Schlinkert.</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547072">
+      <name>npm:is-glob</name>
+      <version>4.0.3</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2014-2017, Jon Schlinkert</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547073">
+      <name>npm:is-number</name>
+      <version>7.0.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2014-present, Jon Schlinkert.</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547074">
+      <name>npm:js-tokens</name>
+      <version>4.0.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547075">
+      <name>npm:loose-envify</name>
+      <version>1.4.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2015 Andres Suarez &lt;zertosh@gmail.com></copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547076">
+      <name>npm:normalize-path</name>
+      <version>3.0.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2014-2018, Jon Schlinkert.</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547077">
+      <name>npm:object-assign</name>
+      <version>4.1.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) Sindre Sorhus &lt;sindresorhus@gmail.com> (sindresorhus.com)</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547078">
+      <name>npm:picomatch</name>
+      <version>2.3.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2017-present, Jon Schlinkert</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547079">
+      <name>npm:prop-types</name>
+      <version>15.8.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2013-present, Facebook, Inc.</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547080">
+      <name>npm:react-chartist</name>
+      <version>0.14.4</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2014 xvfeng</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547081">
+      <name>npm:react-chartjs-2</name>
+      <version>5.2.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2017 Jeremy Ayerst
+Copyright 2020 Jeremy Ayerst</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547082">
+      <name>npm:react-intersection-observer</name>
+      <version>9.5.2</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2023 React Intersection Observer</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547083">
+      <name>npm:react-is</name>
+      <version>16.13.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) Facebook, Inc. and its affiliates.
+Copyright (c) bvaughn (https://github.com/bvaughn)
+Copyright (c) 2014-present Sebastian McKenzie and other contributors</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547084">
+      <name>npm:readdirp</name>
+      <version>3.6.0</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2012-2019 Thorsten Lorenz, Paul Miller (https://paulmillr.com)</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547085">
+      <name>npm:sass</name>
+      <version>1.63.6</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2016, Google Inc.
+</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547086">
+      <name>npm:source-map-js</name>
+      <version>1.0.2</version>
+      <licenses>
+        <license>
+          <id>BSD-3-Clause</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2009-2011, Mozilla Foundation and contributors
+</copyright>
+      <externalReferences/>
+    </component>
+    <component type="library" bom-ref="50547087">
+      <name>npm:to-regex-range</name>
+      <version>5.0.1</version>
+      <licenses>
+        <license>
+          <id>MIT</id>
+        </license>
+      </licenses>
+      <copyright>Copyright (c) 2015-present, Jon Schlinkert.</copyright>
+      <externalReferences/>
+    </component>
+  </components>
+  <dependencies>
+    <dependency ref="50547063">
+      <dependency ref="50547059"/>
+    </dependency>
+  </dependencies>
+  <vulnerabilities>
+    <vulnerability bom-ref="50547057">
+      <id>CVE-2011-3389</id>
+      <source>
+        <name>NVD</name>
+        <url>https://nvd.nist.gov/vuln/detail/CVE-2011-3389</url>
+      </source>
+    </vulnerability>
+    <vulnerability bom-ref="50547057">
+      <id>CVE-2012-0036</id>
+      <source>
+        <name>NVD</name>
+        <url>https://nvd.nist.gov/vuln/detail/CVE-2012-0036</url>
+      </source>
+    </vulnerability>
+    <vulnerability bom-ref="50547057">
+      <id>CVE-2013-1944</id>
+      <source>
+        <name>NVD</name>
+        <url>https://nvd.nist.gov/vuln/detail/CVE-2013-1944</url>
+      </source>
+    </vulnerability>
+    <vulnerability bom-ref="50547057">
+      <id>CVE-2013-2174</id>
+      <source>
+        <name>NVD</name>
+        <url>https://nvd.nist.gov/vuln/detail/CVE-2013-2174</url>
+      </source>
+    </vulnerability>
+    <vulnerability bom-ref="50547057">
+      <id>CVE-2013-4545</id>
+      <source>
+        <name>NVD</name>
+        <url>https://nvd.nist.gov/vuln/detail/CVE-2013-4545</url>
+      </source>
+    </vulnerability>
+    <vulnerability bom-ref="50547057">
+      <id>CVE-2014-0015</id>
+      <source>
+        <name>NVD</name>
+        <url>https://nvd.nist.gov/vuln/detail/CVE-2014-0015</url>
+      </source>
+    </vulnerability>
+    <vulnerability bom-ref="50547057">
+      <id>CVE-2014-0138</id>
+      <source>
+        <name>NVD</name>
+        <url>https://nvd.nist.gov/vuln/detail/CVE-2014-0138</url>
+      </source>
+    </vulnerability>
+    <vulnerability bom-ref="50547057">
+      <id>CVE-2014-0139</id>
+      <source>
+        <name>NVD</name>
+        <url>https://nvd.nist.gov/vuln/detail/CVE-2014-0139</url>
+      </source>
+    </vulnerability>
+    <vulnerability bom-ref="50547057">
+      <id>CVE-2014-3613</id>
+      <source>
+        <name>NVD</name>
+        <url>https://nvd.nist.gov/vuln/detail/CVE-2014-3613</url>
+      </source>
+    </vulnerability>
+    <vulnerability bom-ref="50547057">
+      <id>CVE-2014-3620</id>
+      <source>
+        <name>NVD</name>
+        <url>https://nvd.nist.gov/vuln/detail/CVE-2014-3620</url>
+      </source>
+    </vulnerability>
+  </vulnerabilities>
+</bom>

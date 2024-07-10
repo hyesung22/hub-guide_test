@@ -1,0 +1,597 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-10-12T01:23:01Z",
+    "tools" : [
+      {
+        "vendor" : "LG Electronics",
+        "name" : "FOSSLIhgt Hub",
+        "version" : "1.6.1"
+      }
+    ],
+    "authors" : [
+      {
+        "name" : "jiyeong.seok"
+      }
+    ],
+    "supplier" : {
+      "name" : "LG Electronics",
+      "url" : [
+        "https://opensource.lge.com"
+      ]
+    }
+  },
+  "components" : [
+    {
+      "name" : "curl",
+      "version" : "",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "curl"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 1996 - 2008, Daniel Stenberg, <daniel@haxx.se>.",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/curl/curl/releases"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "50547058"
+    },
+    {
+      "name" : "curl",
+      "version" : "7.21.7",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "curl"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 1998 - 2011, Daniel Stenberg, <daniel@haxx.se>, et al.",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://curl.haxx.se/download"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "50547057"
+    },
+    {
+      "name" : "npm:@kurkle/color",
+      "version" : "0.3.2",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2018-2021 Jukka Kurkela",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547059"
+    },
+    {
+      "name" : "npm:anymatch",
+      "version" : "3.1.3",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "ISC"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2019 Elan Shanker, Paul Miller (https://paulmillr.com)",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547060"
+    },
+    {
+      "name" : "npm:binary-extensions",
+      "version" : "2.2.0",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2019 Sindre Sorhus <sindresorhus@gmail.com> (https://sindresorhus.com), Paul Miller (https://paulmillr.com)",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547061"
+    },
+    {
+      "name" : "npm:braces",
+      "version" : "3.0.2",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2014-2018, Jon Schlinkert.",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547062"
+    },
+    {
+      "name" : "npm:chart.js",
+      "version" : "4.3.0",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2014-2022 Chart.js Contributors",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547063"
+    },
+    {
+      "name" : "npm:chartist",
+      "version" : "0.11.4",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        },
+        {
+          "license" : {
+            "id" : "WTFPL"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2013 Gion Kunz <gion.kunz@gmail.com> Copyright (c) 2004 Sam Hocevar <sam@hocevar.net>",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547064"
+    },
+    {
+      "name" : "npm:chokidar",
+      "version" : "3.5.3",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2012-2019 Paul Miller (https://paulmillr.com), Elan Shanker",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547065"
+    },
+    {
+      "name" : "npm:classnames",
+      "version" : "2.3.2",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2018 Jed Watson",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547066"
+    },
+    {
+      "name" : "npm:fill-range",
+      "version" : "7.0.1",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2014-present, Jon Schlinkert.",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547067"
+    },
+    {
+      "name" : "npm:glob-parent",
+      "version" : "5.1.2",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "ISC"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2015, 2019 Elan Shanker",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547068"
+    },
+    {
+      "name" : "npm:immutable",
+      "version" : "4.3.0",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2014-present, Lee Byron and other contributors",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547069"
+    },
+    {
+      "name" : "npm:is-binary-path",
+      "version" : "2.1.0",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547070"
+    },
+    {
+      "name" : "npm:is-extglob",
+      "version" : "2.1.1",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2014-2015, Jon Schlinkert.",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547071"
+    },
+    {
+      "name" : "npm:is-glob",
+      "version" : "4.0.3",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2014-2017, Jon Schlinkert",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547072"
+    },
+    {
+      "name" : "npm:is-number",
+      "version" : "7.0.0",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2014-present, Jon Schlinkert.",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547073"
+    },
+    {
+      "name" : "npm:js-tokens",
+      "version" : "4.0.0",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547074"
+    },
+    {
+      "name" : "npm:loose-envify",
+      "version" : "1.4.0",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2015 Andres Suarez <zertosh@gmail.com>",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547075"
+    },
+    {
+      "name" : "npm:normalize-path",
+      "version" : "3.0.0",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2014-2018, Jon Schlinkert.",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547076"
+    },
+    {
+      "name" : "npm:object-assign",
+      "version" : "4.1.1",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) Sindre Sorhus <sindresorhus@gmail.com> (sindresorhus.com)",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547077"
+    },
+    {
+      "name" : "npm:picomatch",
+      "version" : "2.3.1",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2017-present, Jon Schlinkert",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547078"
+    },
+    {
+      "name" : "npm:prop-types",
+      "version" : "15.8.1",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2013-present, Facebook, Inc.",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547079"
+    },
+    {
+      "name" : "npm:react-chartist",
+      "version" : "0.14.4",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2014 xvfeng",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547080"
+    },
+    {
+      "name" : "npm:react-chartjs-2",
+      "version" : "5.2.0",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2017 Jeremy Ayerst Copyright 2020 Jeremy Ayerst",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547081"
+    },
+    {
+      "name" : "npm:react-intersection-observer",
+      "version" : "9.5.2",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2023 React Intersection Observer",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547082"
+    },
+    {
+      "name" : "npm:react-is",
+      "version" : "16.13.1",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) Facebook, Inc. and its affiliates. Copyright (c) bvaughn (https://github.com/bvaughn) Copyright (c) 2014-present Sebastian McKenzie and other contributors",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547083"
+    },
+    {
+      "name" : "npm:readdirp",
+      "version" : "3.6.0",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2012-2019 Thorsten Lorenz, Paul Miller (https://paulmillr.com)",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547084"
+    },
+    {
+      "name" : "npm:sass",
+      "version" : "1.63.6",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2016, Google Inc.",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547085"
+    },
+    {
+      "name" : "npm:source-map-js",
+      "version" : "1.0.2",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "BSD-3-Clause"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2009-2011, Mozilla Foundation and contributors",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547086"
+    },
+    {
+      "name" : "npm:to-regex-range",
+      "version" : "5.0.1",
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "MIT"
+          }
+        }
+      ],
+      "copyright" : "Copyright (c) 2015-present, Jon Schlinkert.",
+      "externalReferences" : [ ],
+      "type" : "library",
+      "bom-ref" : "50547087"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "50547063",
+      "dependsOn" : [
+        "50547059"
+      ]
+    }
+  ],
+  "vulnerabilities" : [
+    {
+      "bom-ref" : "50547057",
+      "id" : "CVE-2011-3389",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2011-3389"
+      }
+    },
+    {
+      "bom-ref" : "50547057",
+      "id" : "CVE-2012-0036",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2012-0036"
+      }
+    },
+    {
+      "bom-ref" : "50547057",
+      "id" : "CVE-2013-1944",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2013-1944"
+      }
+    },
+    {
+      "bom-ref" : "50547057",
+      "id" : "CVE-2013-2174",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2013-2174"
+      }
+    },
+    {
+      "bom-ref" : "50547057",
+      "id" : "CVE-2013-4545",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2013-4545"
+      }
+    },
+    {
+      "bom-ref" : "50547057",
+      "id" : "CVE-2014-0015",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2014-0015"
+      }
+    },
+    {
+      "bom-ref" : "50547057",
+      "id" : "CVE-2014-0138",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2014-0138"
+      }
+    },
+    {
+      "bom-ref" : "50547057",
+      "id" : "CVE-2014-0139",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2014-0139"
+      }
+    },
+    {
+      "bom-ref" : "50547057",
+      "id" : "CVE-2014-3613",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2014-3613"
+      }
+    },
+    {
+      "bom-ref" : "50547057",
+      "id" : "CVE-2014-3620",
+      "source" : {
+        "name" : "NVD",
+        "url" : "https://nvd.nist.gov/vuln/detail/CVE-2014-3620"
+      }
+    }
+  ]
+}
