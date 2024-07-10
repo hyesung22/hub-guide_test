@@ -4,9 +4,6 @@ published: true
 ---
 # Binary DB
 ```note
- Binary DB는 LG전자 사내 전용 메뉴입니다.
-```
-```note
  이미 분석이 완료된 Base Model의 Binary 정보를 Database화(Binary DB) 하고, 이를 활용하여 파생 Model의 Binary 분석을 자동화할 수 있습니다.
 ```
 
@@ -29,8 +26,8 @@ published: true
 
 | Message | 의미 |
 |---------|------|
-|<span style="color:#0000FF">Same</span>| Binary DB에 저장된 동일한 binary에 대하여 OSS 정보가 표시되고 일부 정보가 다름을 의미합니다(ex, License, OSS Name 등)|
-|<span style="color:#0000FF">Similar</span>| Binary DB에 저장된 유사한 binary에 대하여 OSS 정보가 표시됩니다. (괄호 안에는 TLSH distance 값이 표시됩니다.)|
+|<span style="color:#0000FF">Same</span>| Binary DB에 저장된 동일한 binary에 대하여 OSS 정보가 표시되고 일부 정보가 다름을 의미합니다.(ex, License, OSS Name 등)|
+|<span style="color:#0000FF">Similar</span>| Binary DB에 저장된 유사한 binary에 대하여 OSS 정보가 표시되고 일부 정보가 다름을 의미합니다.(괄호 안에는 TLSH distance 값이 표시됩니다.)|
 |Matched|Binary DB에 저장된 Binary Name, OSS Name, OSS Version, License 가 일치합니다.|
 |Modified| 동일한 이름이지만, 유사도가 작은 Binary인 경우입니다.(괄호 안에는 TLSH distance 값이 표시됩니다.)|
 |New|Binary DB에 동일한 이름의 Binary가 없습니다. |
