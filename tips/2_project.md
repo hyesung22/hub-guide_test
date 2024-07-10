@@ -82,8 +82,9 @@ Pacakging 단계가 confirm 되면 OSS 고지문을 다운로드 받을 수 있�
 발행된 고지문을 다운받는 방법은 다음과 같습니다. 
 - Project 목록의 Download column에서 아이콘
   (![FileCodeIcon](images/project/search/file-code-regular.png){: width="1.5%"})을 클릭합니다.
+  ![DownloadColumnNotice](images/project/notice/download_column_notice.png){: width="80%"}
 - 혹은 Share Url을 통해 Project Information을 확인하는 경우, Download 받을 수 있는 파일을 확인할 수 있습니다.
-  ![ShareUrlIcon](images/project/search/shareurl_download_icon.png){: width="60%"}
+  ![ShareUrlIconNotice](images/project/notice/shareurl_download_icon_notice.png){: width="60%"}
 
 ### OSS 고지문 종류
 FOSSLight Hub에서 발급 가능한 OSS 고지문 종류입니다.
