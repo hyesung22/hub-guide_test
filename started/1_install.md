@@ -11,4 +11,4 @@ FOSSLight Hub를 빠르고 쉽게 체험하는 방법을 설명합니다.
 - (Sample) User 계정 : 하기 user 계정을 통해 유저 모드를 체험할 수 있습니다.
     - id : user, pswd : user
 
-참고. 직접 빌드 및 실행 방법: [개발 환경 세팅](../features/1_developer.md)
+참고. 직접 빌드 및 실행 방법: [개발 환경 세팅](../advanced/1_developer.md)
