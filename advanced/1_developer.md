@@ -39,7 +39,7 @@ docker-compose up --build
 1. JAVA를 설치합니다.: [https://openjdk.java.net][java]
 2. DDL : [fosslight_create.sql][sql]
 3. MariaDB 또는 Mysql 설치합니다. : [https://mariadb.org/download][maria]
-4. Database 생성 및 초기 Data 등록
+4. Database 생성 및 초기 Data 등록 
 ```
 mysql -u root -p < fosslight_create.sql
 ```
@@ -48,6 +48,15 @@ mysql -u root -p < fosslight_create.sql
 mysql -u root -p <DATABASE_NAME> < fosslight_create.sql
 ```
 접속 계정이 이미 존재하거나, 다른 계정을 사용하는 경우 CREATE USER 및 GRANT 부분을 삭제(또는 변경) 합니다.
+5. 시스템에 tree package를 설치합니다. :
+- Ubuntu
+```
+sudo apt-get install tree
+```
+- MacOS
+```
+brew install tree
+```
 
 
 ### IDE Configuration
