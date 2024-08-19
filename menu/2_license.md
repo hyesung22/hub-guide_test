@@ -86,4 +86,4 @@ License별로 고지와 소스코드 공개 의무사항을 알 수 있습니다
 ### License 삭제
 1. License List에서 삭제할 License Name을 클릭합니다.
 2. License 상세정보 탭에서 Comment란에 삭제 사유를 기입합니다.
-3. 좌측 하단의 Delete 버튼을 클릭합니다.
+3. 우측 상단의 Delete 버튼을 클릭합니다.
