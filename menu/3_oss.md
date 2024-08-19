@@ -46,7 +46,7 @@ Deactivate된 Legacy OSS의 경우 회색 Row로 표시됩니다.
 - [License Type](https://fosslight.org/hub-guide/menu/2_license.html#license-type)  를 참고하시기 바랍니다. 
 
 ### Obligation 
-License 별로 고지와 소스코드 공개 의무사항을 알 수 있습니다.
+OSS별로 고지와 소스 코드 공개 의무사항을 알 수 있습니다.
 - **Notice Obligation**(:page_facing_up:) : 고지 의무가 있습니다.
 - **Source Code Obligation** : 소스코드 공개 의무가 있습니다. 
 
