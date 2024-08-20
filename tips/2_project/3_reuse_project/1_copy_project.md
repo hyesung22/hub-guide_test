@@ -18,6 +18,6 @@ published: true
 
 Copy 할 때, 복사할 단계를 선택할 수 있습니다. (OSC Process 단계 참고: [Project 메뉴 가이드](../../../menu/4_project.md))
 ![StatusPopup](../../images/project/copy_project/project_copy_status_popup.png)
-- Identification Progress: 사용하는 Open Source가 변경되어 Identification 단계부터 진행이 필요한경우
+- Identification Progress: 사용하는 Open Source가 변경되어 Identification 단계부터 진행이 필요한 경우
 - Identification Confirm: packaging 파일 변경 또는 고지문 수정이 필요한 경우
-- Packaging Confirm: 기존 프로젝트와 변동사항이 없는경우
+- Packaging Confirm: 기존 프로젝트와 변동 사항이 없는 경우
