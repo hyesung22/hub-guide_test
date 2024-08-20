@@ -17,5 +17,6 @@ published: true
 
 > **Note**
 > 
-> Project는 복사 할 때, Process 단계에 맞춰 복사 할 수 있습니다: [Project 복사 Tip](../../2_project/2_project.md#프로젝트-재사용하기-프로젝트-복사)
+> Project는 복사 할 때, Process 단계에 맞춰 복사 할 수 있습니다: 
+> [Project 복사 Tip](../../2_project/3_reuse_project/1_copy_project.md#프로젝트-재사용하기-프로젝트-복사)
 
