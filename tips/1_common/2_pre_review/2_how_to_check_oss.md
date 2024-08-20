@@ -16,7 +16,7 @@ published: true
   <span style="color:red">Invalid download location.</span> warning message가 함께 출력됩니다.
 - 추천된 OSS Name을 클릭하면 해당 OSS 상세 정보를 확인할 수 있습니다.
 - 회색 Row로 표시된 경우는 동일한 Download location으로 검색된 OSS 가 2개 이상인 경우입니다.
-  이에 대하여 Registered OSS Name의 cell을 클릭하여 OSS Name을 선택할 수 있습니다.
+  이에 대하여 Registered OSS Name의 cell을 클릭하면 변경하고자 하는 OSS Name을 선택할 수 있습니다.
 - 'Change OSS Name', 'Change License'를 눌러 변경된 사항은 OSS Table에 바로 반영되고, 
   'Comment'에 기록됩니다. 'Comment'를 통해 변경 history를 확인하실 수 있습니다.
 
