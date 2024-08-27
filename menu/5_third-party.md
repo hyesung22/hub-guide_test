@@ -42,11 +42,15 @@ published: true
 ### 3. Request
 1. 3rd Party SW 정보를 입력 후 상단의 **Save** 버튼(<img src="images/save_button.PNG" width="20" height="20" />)을 클릭합니다.
     ![3rd_party_save](images/5_third_party_save.PNG)
+
 2. Save 후, 해당 SW를 다시 클릭하여 들어갑니다.
     ![3rd_party_save](images/5_third_party_save_2.PNG)
+
 3. 로드된 OSS에 대해 중간 좌측의 **Pre-Review**를 진행합니다. (Open Source, License 모두)
     ![3rd_party_save](images/5_third_party_save_3.PNG)
+
 4. 수정된 내용이 있다면 Save 버튼(<img src="images/save_button.PNG" width="20" height="20" />)을 한 번 더 클릭합니다.
+
 5. 우측 상단의 **Request** 버튼을 클릭하여 리뷰를 요청합니다.
     ![3rd_party_save](images/5_third_party_save_5_request.PNG)
 
