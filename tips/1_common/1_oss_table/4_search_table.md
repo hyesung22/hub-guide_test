@@ -4,9 +4,9 @@ published: true
 ---
 
 # OSS Table Search
-Header Column 아래 Filter Row가 위치하고 있습니다. 이 Filter Row를 활용하여 원하는 값을 검색할 수 있습니다.
+OSS Table의 Header 아래에는 Search를 위한 Filter가 위치하고 있습니다. 이 Filter를 활용하여 Column 내 원하는 값을 검색할 수 있습니다.
 ![OSSTableSearch](../../images/common/oss_table_functions/oss_table_search.png)
-- Filter Row는 다음과 같이 구성됩니다:
+- Filter는 다음과 같이 구성됩니다:
   - 검색조건:
 
     | **문자**                                             | ~        | ==    | !         | ^          | !^                  | !        | !@                | !~               |

@@ -4,7 +4,7 @@ published: true
 ---
 
 # OSS Table 상단 버튼
-OSS Table 우측 상단에는 4가지 버튼이 있습니다.
+OSS Table 좌측 상단에는 4가지 버튼이 있습니다.
   ![OSSTableEdit](../../images/common/oss_table_functions/oss_table_edit.png)
 - ![TablePlusBtn](../../images/common/oss_table_buttons/plus.png){: width="1%"} : row가 추가됩니다.
 - ![TableDeleteBtn](../../images/common/oss_table_buttons/trash_can.png){: width="1%"} : 선택된 row 삭제됩니다. 선택된 row가 없이 클릭하는 경우, 전체 삭제됩니다.
