@@ -9,7 +9,7 @@ published: true
 ```
 <iframe width="560" height="315" src="https://www.youtube.com/embed/U1u1jnQp5Bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## 3rd Party SW 등록 
+## 3rd Party SW 등록 과
 ### 1. 사전 준비 사항
 - **Open Source Software List**
     - 3rd party로부터 3rd Party OSS Checklist를 요청하여 취합합니다.
