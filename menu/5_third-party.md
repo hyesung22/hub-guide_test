@@ -56,7 +56,7 @@ published: true
 
 ## 참고
 ### Create Project for OSS Notice
-배포하는 Software가 3rd Party Software로만 구성된다면, Confirm 된 3rd Party List에서 **Project > Project**(<U>Identification Confirm 상태</U>)를 바로 생성할 수 있습니다.    
+배포하는 Software가 3rd Party Software로만 구성된다면, Confirm 된 3rd Party Software에서 **Project > Project**(<U>Identification Confirm 상태</U>)를 바로 생성할 수 있습니다.    
 단, Identification Confirm 불가인 경우 Identification request 상태의 Project가 생성됩니다.
 
 
