@@ -16,7 +16,7 @@ published: true
 
 ### 2. 3rd Party SW 등록
 ![3rd_party_list](images/5_third_party_list.PNG)
-1. 왼쪽 메뉴에서 3rd Party List를 클릭합니다.
+1. 왼쪽 메뉴에서 3rd Party를 클릭합니다.
 2. 3rd Party List 왼쪽 상단의 **Add** 버튼을 클릭합니다.
 3. 아래와 같이 New_3rdParty 탭에서 3rd Party 정보를 입력하고 Save합니다.  
     ![3rd_party_new](images/5_third_party_new.PNG)
