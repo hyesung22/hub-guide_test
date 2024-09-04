@@ -40,7 +40,7 @@ Deactivate된 Legacy OSS의 경우 회색 Row로 표시됩니다.
 - OSS의 Declared License 정보를 알 수 있습니다.  
 - Multi License는 OSS에 포함되는 모든 License가 <span style="color:red">AND</span>로 표시됩니다.
 - Dual License는 OSS의 License를 복수 개 중 선택할 수 있고 <span style="color:red">OR</span>로 표시됩니다.
-- 입력 키워드에 License Name 또는 SPDX Identifier 와 일치하는 License 입력 시, 이를 포함하는 모든 Open Source를 검색합니다.
+- 입력 키워드에 License Name 또는 SPDX Identifier 와 일치하는 License 입력시 이를 포함하는 모든 Open Source를 검색합니다.
 
 ### License Type
 - [License Type](https://fosslight.org/hub-guide/menu/2_license.html#license-type)  를 참고하시기 바랍니다. 
