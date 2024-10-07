@@ -50,6 +50,7 @@ $ mysql -ufosslight -pfosslight fosslight < fosslight_backup.sql
     username=fosslight
     password=fosslight
     ```
+   
 2. fosslight/migration/mybatis-migrations-3.3.11 폴더를 MIGRATIONS_HOME로 export합니다.
     ```
     $ cd fosslight
@@ -59,7 +60,8 @@ $ mysql -ufosslight -pfosslight fosslight < fosslight_backup.sql
     $ export MIGRATIONS=$MIGRATIONS_HOME/bin
     $ export PATH=$MIGRATIONS:$PATH
     ```
-3. migrate status를 확인 후 업그레이드합니다.
+   
+3. migrate status를 확인 후, 적용할 migration script만 남기고, 나머지 script는 삭제합니다.
     ```
     $ cd /home/test/fosslight/migration/migration
     $ migrate status
@@ -77,10 +79,31 @@ $ mysql -ufosslight -pfosslight fosslight < fosslight_backup.sql
     -- Total time: 0s
     -- Finished at: Wed Mar 22 20:12:07 KST 2023
     -- Final Memory: 7M/500M
-
-    $ migrate up
     ```
-4. 버전 업이 적용되었는지 확인합니다. 
+
+4.  migrate up 명령어를 통해 업그레이드 합니다.
+    ```
+    $ migrate up
+    ------------------------------------------------------------------------
+    -- MyBatis Migrations - up
+    ------------------------------------------------------------------------
+    ========== Applying: 20230322085317_create_changelog.sql =======================
+    -- // Create Changelog
+    -- Default DDL for changelog table that will keep
+    -- a record of the migrations that have been run.
+    -- You can modify this to suit your database before
+    
+    ...
+    
+    ------------------------------------------------------------------------
+    -- MyBatis Migrations SUCCESS
+    -- Total time: 2s
+    -- Finished at: Mon Oct 07 10:22:47 KST 2024
+    -- Final Memory: 8M/500M
+    ------------------------------------------------------------------------
+    ```
+
+5. 버전 업이 적용되었는지 확인합니다. 
     ```
     $ migrate status
     ------------------------------------------------------------------------
