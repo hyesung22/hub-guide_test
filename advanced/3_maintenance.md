@@ -79,6 +79,11 @@ $ mysql -ufosslight -pfosslight fosslight < fosslight_backup.sql
     -- Total time: 0s
     -- Finished at: Wed Mar 22 20:12:07 KST 2023
     -- Final Memory: 7M/500M
+    ------------------------------------------------------------------------ 
+      
+    $ cd scripts/
+    $ rm 20230322092534_update_v1.6.0.sql
+    $ rm 20230818004358_update_v1.6.1.sql
     ```
 
 4.  migrate up 명령어를 통해 업그레이드 합니다.
@@ -121,7 +126,6 @@ $ mysql -ufosslight -pfosslight fosslight < fosslight_backup.sql
     -- Finished at: Wed Mar 22 20:12:39 KST 2023
     -- Final Memory: 7M/500M
     ------------------------------------------------------------------------
-
     ```
 
 ✏️참고. 자세한 command는 [MyBatis Migrations](https://mybatis.org/migrations/migrate.html)를 참조하세요.
