@@ -250,3 +250,16 @@ Packaging tab에서는 OSS Package 파일을 Upload하고 이를 Verify합니다
 |**Formatting error**|줄바꿈 문자가 포함되어 있습니다. 여러 줄 작성이 필요한 경우, Row를 추가하여 작성하시기 바랍니다.|
 |**Not the same as property**|입력한 URL이 FOSSLight Hub에 등록된 해당 OSS의 URL과 다릅니다.|
 
+
+### 4. Distribution (Enterprise 전용)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/skip2wLoD90" title="OSS Package & OSS Notice 배포" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+```note
+Distribution을 수행하면 배포 사이트에 OSS 고지문 / OSS Package가 등록됩니다.
+- LG 전자 : LG Open Source 사이트 내 Product 페이지(https://opensource.lge.com/product)
+- 타사 : 각 회사에서 설정한 배포 사이트에 등록
+
+ 외부에 공개되는 사항으로 Admin 권한의 계정을 가진 사용자만 Distribution을 수행할 수 있습니다.
+- LG 전자 : Admin 계정은 사업부/연구소 내 OSC 담당자에게만 부여됩니다.
+           만약 Project Creator가 OSC 담당자가 아닌 경우, Project > Watcher에 조직의 OSC 담당자를 추가한 후, OSC 담당자에게 Distribution 단계 수행을 요청하시기 바랍니다.
+```
