@@ -71,8 +71,6 @@ Project에 대한 기본 정보를 수정하거나 Status를 변경하는 탭입
     - Open : Status가 Complete 또는 Drop인 경우 표시되며 Status를 Progress로 변경합니다. 
 
 ### 2. Identification
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zzopYiY2UOA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 **배포하는 Project에 대하여 Open Source Software 분석 결과를 작성하고 OSPO의 리뷰를 받습니다.**
 
 #### Identification Process 종류
@@ -94,12 +92,16 @@ Project에 대한 기본 정보를 수정하거나 Status를 변경하는 탭입
 
 
 #### 2-1. 3rd Party Tab
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IIOsmWupkn4" title="3rd Party Software 등록" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ![prj](images/4_project_iden_3rdparty.PNG)
 **3rd Party 탭 작성 Process**
 - 3rd Party Software가 포함된 경우: <U>사전에 리뷰 완료된 3rd Party를 Load → Save</U>
 - 3rd Party Software가 포함되지 않은 경우: <U>Not Applicable 체크 → Save</U>
 
 **리뷰 완료된 3rd Party를 Load하는 방법**    
+<iframe width="560" height="315" src="https://www.youtube.com/embed/KKcI48nCAqA" title="3rd Party SW 불러오기" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 하기 방법 중 선택하여 3rd Party Software 정보를 불러올 수 있습니다.     
 (💁 3rd Party는 여러개 불러올 수 있습니다.)
 - 3rd Party Search
@@ -112,6 +114,9 @@ Project에 대한 기본 정보를 수정하거나 Status를 변경하는 탭입
     
     3rd Party List 메뉴에서 Status가 confirm인 3rd Party Software를 검색하고 load합니다.
 - Project Search : 다른 Project의 3rd Party 탭을 load합니다.
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/iuHTSEgqMRc" title="DEP / SRC/ BIN 탭 작성하기" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### 2-2. DEP Tab
 ![prj](images/4_project_iden_deptap.PNG)
@@ -158,6 +163,8 @@ Project에 대한 기본 정보를 수정하거나 Status를 변경하는 탭입
     2. Project Search : 다른 Project의 BIN 탭을 Load합니다.
 
 #### 2-5. BOM Tab
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ErqmgN-YgD0" title="BOM 탭(SBOM 다운로드)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 3rd Party, DEP, SRC, BIN 탭에 작성된 OSS 목록을 취합하고 리뷰 요청을 합니다.
 ![prj](images/4_project_iden_bomtap.PNG)
 
@@ -180,8 +187,7 @@ Project에 대한 기본 정보를 수정하거나 Status를 변경하는 탭입
 - OSS 고지문은 Packaging 단계가 Confirm되면 자동으로 생성됩니다. 만약, OSS 고지문 내용을 변경해야 할 경우, Notice tab에서 수정할 수 있습니다.
 - Project List의 Packaging column 내 버튼을 클릭하여 진입합니다.
 ```
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/66uWu4qxOog" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/H4CPBzUOn7M" title="OSS Package & OSS Notice 생성" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 #### 3-1. Packaging Tab
 ![prj](images/4_project_packaging_upload.PNG)
