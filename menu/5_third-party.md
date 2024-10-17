@@ -7,7 +7,8 @@ published: true
 - 3rd Party Software를 전달받는 경우, 3rd party에게 3rd Party OSS Checklist 작성 및 제출을 요청하고, 전달 받은 Software의 Open Source 정보를 등록하고 관리합니다.
 - Status: Confirm인 3rd Party에 한하여 Project > Identification - 3rd Party 탭에서 Load할 수 있습니다. 
 ```
-<iframe width="560" height="315" src="https://www.youtube.com/embed/IIOsmWupkn4" title="FOSSLight Hub - 3rd Party SW 등록" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IIOsmWupkn4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/U1u1jnQp5Bc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## 3rd Party SW 등록 과정
 ### 1. 사전 준비 사항
