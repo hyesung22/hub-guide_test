@@ -220,7 +220,7 @@ Packaging tab에서는 OSS Package 파일을 Upload하고 이를 Verify합니다
 - Packaging이 Confirm된 Project에 대해서 Project List에서 발행된 OSS Notice를 다운로드 받을 수 있습니다.
     - Creator에게 재확인이 필요한 경우 Reject을 클릭하여 Status를 Progress로 변경합니다.
 
-### (Enterprise 전용) 4. Distribution 
+### 4. Distribution(Enterprise 전용)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/skip2wLoD90" title="OSS Package & OSS Notice 배포" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ```note
