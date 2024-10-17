@@ -227,7 +227,7 @@ Packaging tab에서는 OSS Package 파일을 Upload하고 이를 Verify합니다
 Distribution을 수행하면 배포 사이트에 OSS 고지문 / OSS Package가 등록됩니다.
 ```
 #### 배포 사이트
- - LG 전자 : LG Open Source 사이트 내 Product 페이지(https://opensource.lge.com/product)
+ - LG 전자 : LG Open Source 사이트 내 Product 페이지([https://opensource.lge.com/product](https://opensource.lge.com/product))
  - 타사 : 각 회사에서 설정한 배포 사이트에 등록
 
 #### (Admin Only) 배포 권한
