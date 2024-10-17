@@ -11,6 +11,8 @@ Project를 생성하고 OSC(Open Source Compliance) Process를 수행합니다.
 3. Packaging 수행
 4. OSS Notice 다운로드
 ```
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IUrQyj3s-Ps" title="FOSSLight Hub - 프로젝트 생성" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ## Project의 Process
 
 ### 1. Create a Project
