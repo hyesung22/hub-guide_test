@@ -51,7 +51,7 @@ Operating System : Operating System을 선택합니다. (선택 가능한 OS가 
 - **Additional Information**: Compliance에 필요한 부가정보가 있을 경우, 입력합니다.
 - **Watcher**: 해당 Project 정보 및 현황을 공유하고자 하는 사용자를 등록합니다. 
     - Watcher로 등록된 사용자는 해당 Project에 대하여 Creator와 동일한 조회, 편집 권한을 가지고, 시스템에서 프로젝트 관련된 메일이 발송됩니다.
-    - 단, AD ID로 추가한 계정 중 OSC system에 가입되지 않은 사용자는 최초 OSC System 계정 등록 안내 메일 외 프로젝트 관련 메일이 발송되지 않습니다.
+    - 단, AD ID로 추가한 계정 중 FOSSLight Hub에 가입되지 않은 사용자는 최초 FOSSLight Hub 계정 등록 안내 메일 외 프로젝트 관련 메일이 발송되지 않습니다.
 - **Comment** : 해당 Project 관련하여 Comment로 남기고 싶은 사항을 입력합니다.   
 
 3. 우측 상단의 **Save**(<img src="images/save_button.PNG" width="20" height="20" />) 버튼을 클릭합니다.
@@ -65,16 +65,13 @@ Project에 대한 기본 정보를 수정하거나 Status를 변경하는 탭입
 - **Copy** : Project를 복사하여 새로운 Project를 생성합니다. 
 - **Save** : 기본 정보를 수정한 후에는 클릭해야 저장됩니다. 
 - **Open** : Status가 Drop인 경우 표시되며 클릭하면 Status를 Progress로 변경합니다. 
-- **Request to Open** : Status가 Complete인 Project인 경우 표시되며 Status를 Progress로 변경하여 Process를 재수행할 수 있습니다. 
+- **Reopen** : Status가 Complete인 Project인 경우 표시되며 Status를 Progress로 변경하여 Process를 재수행할 수 있습니다. 
 - **(Admin Only)**
     - Complete : 모든 Process가 완료된 Project에 대하여 Status를 변경합니다. 
     - Open : Status가 Complete 또는 Drop인 경우 표시되며 Status를 Progress로 변경합니다. 
 
 ### 2. Identification
 **배포하는 Project에 대하여 Open Source Software 분석 결과를 작성하고 OSPO의 리뷰를 받습니다.**
-
-#### Identification Process 종류
-![iden_process_type](images/tutorial_iden_process_type.PNG)
 
 ##### 일반 Project의 Identification Process
 - **3rd Party, DEP 탭, SRC, BIN 탭 작성 → BOM 탭**에서 **Request** 버튼을 클릭하여 리뷰 요청
