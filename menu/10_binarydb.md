@@ -34,7 +34,7 @@ published: true
 
 
 ```note
-Binary DB내의 Binary와 일치하는지 여부는 다음 두가지 data를 통해 확인합니다.    
+Binary DB내의 Binary와 일치하는지 여부는 다음 두 가지 data를 통해 확인합니다.    
     1. Binary 이름과 checksum 값이 일치하면 동일한 것으로 간주합니다.    
     2. 또는, Binary 이름이 동일하고 두 Binary간의 TLSH distance가 120이하면 유사한 것으로 간주합니다.    
 ```
