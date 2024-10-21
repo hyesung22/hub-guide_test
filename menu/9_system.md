@@ -9,7 +9,7 @@ published: true
 
 ## Code Management
 ![config](images/9_system_code.PNG)
-- 시스템 동작시 읽을 세팅 값을 설정합니다.
+- 시스템 동작 시 읽을 세팅 값을 설정합니다.
 
 ## User Management
 ![config](images/9_system_user.PNG)
