@@ -30,7 +30,7 @@ published: true
 |**Software Name**|3rd Party로부터 전달받은 Software 명을 기입합니다.|
 |**Software Version**|3rd Party로부터 전달받은 Software의 Version을 기입합니다. <br>(하나의 Software에 동일한 version 중복 불가)|
 |**Delivery Form**|전달받은 Software의 형태를 선택합니다. (Source Code Form, Binary Form 중 선택)|
-|**Permission**| EveryOne : 모든 사용자가 해당 3rd Party SW 정보를 조회할 수 있습니다. <br>Creator/Watcher: Watcher와 Creator 외에는 해당 3rd Party SW를 조회할 수 없게 합니다.|
+|**Permission**| Everyone : 모든 사용자가 해당 3rd Party SW 정보를 조회할 수 있습니다. <br>Creator/Watcher: Watcher와 Creator 외에는 해당 3rd Party SW를 조회할 수 없게 합니다.|
 |**Description**| Open Source Compliance에 필요한 부가 정보가 있을 경우, 기재합니다.|
 |**Open Source Agreement**|계약서를 해당 시스템에서 관리하고 싶은 경우에만 첨부합니다.|
 |**OSS Checklist (Open Source List)**| 미리 준비한 3rd Party OSS Checklist를 업로드합니다. <br>(업로드 시, apply할 sheet는 'Open Source Software List' 선택.)|
