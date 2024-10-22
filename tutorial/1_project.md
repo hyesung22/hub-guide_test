@@ -25,7 +25,7 @@ Project를 생성하고 OSC(Open Source Compliance) Process를 수행합니다.
 2. **New_Project** 탭에서 Project 관련 정보를 입력합니다.
 ![prj_add_bi](images/4_project_add_bi.PNG)
 
-#### Basic Information
+**Basic Information**
 Project에 대한 기본 정보를 입력하는 페이지입니다.
 
 - **Project Name**: Project의 이름을 입력합니다.
