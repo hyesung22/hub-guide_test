@@ -166,7 +166,7 @@ Operating System : Operating System을 선택합니다. (선택 가능한 OS가 
 ![prj](images/4_project_iden_bomtap.PNG)
 
 ##### Review 요청 방법
-1. Merge And Save 버튼을 클릭합니다.
+1. **Save** 버튼을 클릭합니다.
     - 3rd Party, DEP, SRC, BIN 탭에 작성한 OSS List를 취합합니다.
 2. [Warning message별 검토 사항](#warning) 검토 사항을 확인합니다.
 3. Request Review 버튼을 클릭하여 리뷰 요청을 합니다.
@@ -175,7 +175,7 @@ Operating System : Operating System을 선택합니다. (선택 가능한 OS가 
 ##### (Admin only) Review 방법
 1. BOM 탭 우측 상단 Review Start 버튼을 클릭합니다.
 2. [Warning message별 검토 사항](#warning) 검토 사항을 확인합니다.
-3. Merge And Save 클릭 후 Confirm을 클릭하면 Packaging 탭이 활성화됩니다. 
+3. **Save** 클릭 후 Confirm을 클릭하면 Packaging 탭이 활성화됩니다. 
     - Creator에게 재확인이 필요한 경우 **Reject**을 클릭하여 Status를 Progress로 변경합니다.
 
 ### 3. Packaging
