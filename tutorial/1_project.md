@@ -76,7 +76,7 @@ Operating System : Operating System을 선택합니다. (선택 가능한 OS가 
 
 - Project List의 OSC Process 중 Identification(<img src="images/tutorial_iden_icon.PNG" width="40" height="20" />) 아이콘을 클릭하여 진입합니다.
 
-##### 일반 Project의 Identification Process
+**일반 Project의 Identification Process**
 - **3rd Party, DEP 탭, SRC, BIN 탭 작성 → BOM 탭**에서 **Request** 버튼을 클릭하여 리뷰 요청
     - **3rd Party**: 해당 Project에 포함된 3rd Party를 load합니다.
     - **DEP**: Dependency 분석 결과를 작성합니다.
@@ -84,7 +84,7 @@ Operating System : Operating System을 선택합니다. (선택 가능한 OS가 
     - **BIN**: Binary 분석 결과를 작성합니다.
     - **BOM**: 다른 탭에 작성된 OSS List를 취합하고 Warning message를 검토한 후 리뷰 요청을 합니다.
 
-##### Android/Yocto model의 Identification Process
+**Android/Yocto model의 Identification Process**
 - **BIN(Android/Yocto) 탭 작성** → **Request** 버튼을 클릭하여 리뷰 요청
     - **BIN(Android/Yocto)**: Android binary 분석 결과를 작성합니다.
 
