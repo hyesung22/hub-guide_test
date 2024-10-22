@@ -9,7 +9,7 @@ published: true
 3. 'Change OSS Name'을 클릭합니다. 변경된 Open Source 이름이 OSS Table에 반영됩니다.
 ![PreReviewLicense](../../images/common/pre_review/pre_review_opensource.png)
 
-**세부 기능**
+**Pre-Review 테이블 세부 기능**
 - 작성한 Download location이 redirect 되는 경우, redirect URL 기준으로 추천된 OSS Name(Registered OSS Name)이 생성되고,
   하단에 redirect url 정보를 확인할 수 있습니다.
 - 접속할 수 없는 download location의 경우에는 'Registered OSS name(to be changed)'에 

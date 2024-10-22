@@ -234,11 +234,9 @@ Distribution을 수행하면 배포 사이트에 OSS 고지문 / OSS Package가 
  
 
 ## ⭐Tips for Project
-### Check OSS Name 버튼 (DEP, SRC, BIN Tab)
+### Pre-Review 버튼 (DEP, SRC, BIN Tab)
 **OSS Table에 작성된 Download location을 기반으로 FOSSLight Hub에 저장된 OSS Name으로 자동 변경합니다.**
-- 팝업에 자동 변환될 OSS 목록이 표시됩니다.
-    - Change OSS Name 버튼 : 체크된 Row에 대하여 OSS Table의 OSS Name이 변경됩니다. 
-    - **<U>(Admin Only)</U>** Add Nickname 버튼 : 체크된 Row에 대하여 FOSSLight Hub에 저장된 OSS에 Nickname으로 OSS Table에 쓰여진 OSS Name이 추가됩니다.
+- 상세 가이드는 [Tips > Common > Pre-Review](../tips/1_common/2_pre_review)에서 확인하시기 바랍니다.
 
 ### <a name="comment"></a> Comment 남기기
 - 탭별 우측 상단의 Comment Edit 버튼을 클릭하면 Comment를 남기고 해당 Comment를 Reviewer, Watcher, Creator에게 메일로 발송할 수 있습니다.
