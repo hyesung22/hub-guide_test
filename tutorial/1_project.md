@@ -25,6 +25,9 @@ Project를 생성하고 OSC(Open Source Compliance) Process를 수행합니다.
 2. **New_Project** 탭에서 Project 관련 정보를 입력합니다.
 ![prj_add_bi](images/4_project_add_bi.PNG)
 
+#### Basic Information
+Project에 대한 기본 정보를 입력하는 페이지입니다.
+
 - **Project Name**: Project의 이름을 입력합니다.
     - 모델명과 Project명이 동일할 경우, 모델명을 입력합니다. (Project Name은 영문 작성이 권장됩니다.)
 - **Project Version**: Project의 Version을 입력합니다. Version 구분이 없다면 공란으로 둡니다.
@@ -57,9 +60,7 @@ Operating System : Operating System을 선택합니다. (선택 가능한 OS가 
 3. 우측 상단의 **Save**(<img src="images/save_button.PNG" width="20" height="20" />) 버튼을 클릭합니다.
 <br>
 
-#### Basic Information탭
-Project에 대한 기본 정보를 수정하거나 Status를 변경하는 탭입니다. 
-![prj_basic](images/4_project_basic_info.PNG)
+
 - **Delete** : Project를 삭제합니다. 
 - **Drop** : Project의 Status를 Drop으로 변경합니다. 다시 Process를 진행하기 위해서는 Open 버튼을 클릭해야 합니다. 
 - **Copy** : Project를 복사하여 새로운 Project를 생성합니다. 
