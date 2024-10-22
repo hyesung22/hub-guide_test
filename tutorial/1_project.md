@@ -21,12 +21,14 @@ Project를 생성하고 OSC(Open Source Compliance) Process를 수행합니다.
 1. **Project List**에서 **Add** 버튼을 클릭합니다.
 ![prj_add](images/4_project_add.png)
 
-
 2. **New_Project** 탭에서 Project 관련 정보를 입력합니다.
 ![prj_add_bi](images/4_project_add_bi.PNG)
 
-**Basic Information**
-Project에 대한 기본 정보를 입력하는 페이지입니다.
+3. 입력이 끝나면 우측 상단의 **Save**(<img src="images/save_button.PNG" width="20" height="20" />) 버튼을 클릭합니다.
+<br>
+
+#### Project Information
+Project에 대한 기본 정보를 입력하는 페이지입니다.    
 
 - **Project Name**: Project의 이름을 입력합니다.
     - 모델명과 Project명이 동일할 경우, 모델명을 입력합니다. (Project Name은 영문 작성이 권장됩니다.)
@@ -57,22 +59,22 @@ Operating System : Operating System을 선택합니다. (선택 가능한 OS가 
     - 단, AD ID로 추가한 계정 중 FOSSLight Hub에 가입되지 않은 사용자는 최초 FOSSLight Hub 계정 등록 안내 메일 외 프로젝트 관련 메일이 발송되지 않습니다.
 - **Comment** : 해당 Project 관련하여 Comment로 남기고 싶은 사항을 입력합니다.   
 
-3. 우측 상단의 **Save**(<img src="images/save_button.PNG" width="20" height="20" />) 버튼을 클릭합니다.
-<br>
-
-
-- **Delete** : Project를 삭제합니다. 
-- **Drop** : Project의 Status를 Drop으로 변경합니다. 다시 Process를 진행하기 위해서는 Open 버튼을 클릭해야 합니다. 
-- **Copy** : Project를 복사하여 새로운 Project를 생성합니다. 
-- **Save** : 기본 정보를 수정한 후에는 클릭해야 저장됩니다. 
-- **Open** : Status가 Drop인 경우 표시되며 클릭하면 Status를 Progress로 변경합니다. 
-- **Reopen** : Status가 Complete인 Project인 경우 표시되며 Status를 Progress로 변경하여 Process를 재수행할 수 있습니다. 
+#### Project의 Share, Copy, Delete, Save 등
+- **Share**: 생성되는 URL을 통해 Project를 공유할 수 있습니다.
+- **Copy**: Project를 복사하여 새로운 Project를 생성합니다. 
+- **Delete**: Project를 삭제합니다. 
+- **Save**: 기본 정보를 수정한 후에는 클릭해야 저장됩니다. 
+- **Drop**: Project의 Status를 Drop으로 변경합니다. 다시 Process를 진행하기 위해서는 Open 버튼을 클릭해야 합니다. 
+- **Open**: Status가 Drop인 경우 표시되며 클릭하면 Status를 Progress로 변경합니다. 
+- **Reopen**: Status가 Complete인 Project인 경우 표시되며 Status를 Progress로 변경하여 Process를 재수행할 수 있습니다. 
 - **(Admin Only)**
-    - Complete : 모든 Process가 완료된 Project에 대하여 Status를 변경합니다. 
-    - Open : Status가 Complete 또는 Drop인 경우 표시되며 Status를 Progress로 변경합니다. 
+    - Complete: 모든 Process가 완료된 Project에 대하여 Status를 변경합니다. 
+    - Open: Status가 Complete 또는 Drop인 경우 표시되며 Status를 Progress로 변경합니다. 
 
 ### 2. Identification
 **배포하는 Project에 대하여 Open Source Software 분석 결과를 작성하고 OSPO의 리뷰를 받습니다.**
+
+- Project List의 OSC Process 중 Identification(<img src="images/tutorial_iden_icon.PNG" width="40" height="20" />) 아이콘을 클릭하여 진입합니다.
 
 ##### 일반 Project의 Identification Process
 - **3rd Party, DEP 탭, SRC, BIN 탭 작성 → BOM 탭**에서 **Request** 버튼을 클릭하여 리뷰 요청
@@ -82,12 +84,9 @@ Operating System : Operating System을 선택합니다. (선택 가능한 OS가 
     - **BIN**: Binary 분석 결과를 작성합니다.
     - **BOM**: 다른 탭에 작성된 OSS List를 취합하고 Warning message를 검토한 후 리뷰 요청을 합니다.
 
-##### Android model의 Identification Process
-- **BIN(Android) 탭 작성 → BIN(Android) 탭**에서 **Request** 버튼을 클릭하여 리뷰 요청
-    - **BIN(Android)**: Android binary 분석 결과를 작성합니다.
-
-- Project List의 OSC Process 중 Identification(<img src="images/tutorial_iden_icon.PNG" width="40" height="20" />) 아이콘을 클릭하여 진입합니다.
-
+##### Android/Yocto model의 Identification Process
+- **BIN(Android/Yocto) 탭 작성** → **Request** 버튼을 클릭하여 리뷰 요청
+    - **BIN(Android/Yocto)**: Android binary 분석 결과를 작성합니다.
 
 #### 2-1. 3rd Party Tab
 <iframe width="560" height="315" src="https://www.youtube.com/embed/IIOsmWupkn4" title="3rd Party Software 등록" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -177,7 +176,7 @@ Operating System : Operating System을 선택합니다. (선택 가능한 OS가 
 1. BOM 탭 우측 상단 Review Start 버튼을 클릭합니다.
 2. [Warning message별 검토 사항](#warning) 검토 사항을 확인합니다.
 3. Merge And Save 클릭 후 Confirm을 클릭하면 Packaging 탭이 활성화됩니다. 
-    - Creator에게 재확인이 필요한 경우 Reject을 클릭하여 Status를 Progress로 변경합니다.
+    - Creator에게 재확인이 필요한 경우 **Reject**을 클릭하여 Status를 Progress로 변경합니다.
 
 ### 3. Packaging
 ```note
@@ -246,9 +245,9 @@ Distribution을 수행하면 배포 사이트에 OSS 고지문 / OSS Package가 
 
 ### <a name="warning"></a> OSS Table's Warning message 
 #### Warning message 색깔별 의미
-- <span style="color:red"> 빨간색 </span> : 리뷰 요청 또는 Confirm이 불가합니다. 검토 후 수정이 필요합니다.
-- <span style="color:blue"> 파란색 </span> : 리뷰 요청 또는 Confirm 가능하지만, 검토가 필요한 사항입니다.
-- <span style="color:grey"> 회색 </span> : 정보 전달을 위한 message입니다.
+- <span style="color:red"> 빨간색 </span>: 리뷰 요청 또는 Confirm이 불가합니다. 검토 후 수정이 필요합니다.
+- <span style="color:blue"> 파란색 </span>: 리뷰 요청 또는 Confirm 가능하지만, 검토가 필요한 사항입니다.
+- <span style="color:grey"> 회색 </span>: 정보 전달을 위한 message입니다.
 
 #### Warning message에 따른 검토 사항
 
