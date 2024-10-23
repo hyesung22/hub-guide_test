@@ -9,7 +9,7 @@ OSS List의 OSS Name Column 내 cell을 클릭하면 상세정보를 확인할 �
 Deactivate된 Legacy OSS의 경우 회색 Row로 표시됩니다.    
 ```
 ## Open Source List
-![OssList](images/2_oss_list.PNG)
+![OssList](images/2_oss_list.png)
 
 ### ID  
 - Open Source를 식별하는 숫자입니다.

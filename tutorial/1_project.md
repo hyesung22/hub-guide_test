@@ -163,7 +163,7 @@ Operating System : Operating System을 선택합니다. (선택 가능한 OS가 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ErqmgN-YgD0" title="BOM 탭(SBOM 다운로드)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 3rd Party, DEP, SRC, BIN 탭에 작성된 OSS 목록을 취합하고 리뷰 요청을 합니다.
-![prj](images/4_project_iden_bomtap.PNG)
+![prj](images/4_project_iden_bomtap.png)
 
 ##### Review 요청 방법
 1. **Save** 버튼을 클릭합니다.
