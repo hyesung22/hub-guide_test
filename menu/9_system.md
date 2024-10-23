@@ -46,7 +46,7 @@ Vulnerability Data 변경 사항을 확인합니다.
 
 
 ## Server Setting
-![config](images/9_system_server.PNG)
+![config](images/9_system_server.png)
 ### Authentication using LDAP
 FOSSLight Hub는 JNDI를 사용하여 Active Directory 등 LDAP을 사용할 수 있는 환경에서는 LDAP을 이용한 사용자 패스워드 인증 처리를 지원합니다.
 - Provider Url: LDAP 서버 정보를 ldap://&lt;AD_SERVER_IP&gt;:&lt;LDAP_PORT&gt; 형식으로 설정합니다. (javax.naming.Context.PROVIDER_URL)
