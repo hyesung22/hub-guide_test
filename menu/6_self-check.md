@@ -66,11 +66,15 @@ Self-Check는 아래와 같은 절차를 통해 진행할 수 있습니다.
 - **User Guide** : 해당 License 사용 시 참고할 수 있는 정보들에 대한 링크가 제공됩니다.
 
 #### OSS 사용에 따른 의무/제한 사항
-❕ 상세 내용은 [**License List**](2_license.md)에서 확인 가능합니다.  
-- **Obligation > Notify 아이콘**(<img src="images/6_self_check_notice_icon.PNG" width="20" height="20" />): Copyright나 License (혹은 둘 다)에 대한 고지의 의무가 있음을 의미합니다.
-- **Obligation > Source 아이콘**(<img src="images/6_self_check_src_icon.PNG" width="20" height="20" />): Source Code 공개 의무가 있음을 의미합니다.
-- **물음표 아이콘**(<img src="images/6_self_check_unclear_icon.PNG" width="20" height="20" />): 등록되지 않은 Open Source/License로 의무 사항을 알 수 없습니다.
-- **Restriction 아이콘** : 해당 OSS를 사용하는데 제약사항이 존재함을 의미합니다. (예 : 수정 제한, 상업적 사용 제한 등)
+❕ 상세 내용은 [**License List**](2_license.md)에서 확인 가능합니다.
+- **Notice Column**: 체크(![ObligationCheck](images/check_icon.png)) 표시가 되어 있는 경우, 
+  Copyright나 License (혹은 둘 다)에 대한 고지의 의무가 있음을 의미합니다.
+- **Source Column**: 체크(![ObligationCheck](images/check_icon.png)) 표시가 되어 있는 경우,
+  Source Code 공개 의무가 있음을 의미합니다.
+  - Notice/Source Column의 **물음표 아이콘**(<img src="images/6_self_check_unclear_icon.PNG" width="20" height="20" />): 
+    등록되지 않은 Open Source/License로 의무 사항을 알 수 없습니다.
+- **Restriction Column** : ![RestrictionIcon](images/restriction_icon.png) 표시가 되어있는 경우, 
+  해당 OSS를 사용하는데 제약사항이 존재함을 의미합니다. (예 : 수정 제한, 상업적 사용 제한 등)
 <br>
 
 ### 4. Vulnerability 정보 확인
