@@ -47,8 +47,10 @@ Deactivate된 Legacy OSS의 경우 회색 Row로 표시됩니다.
 
 ### Obligation 
 OSS별로 고지와 소스 코드 공개 의무사항을 알 수 있습니다.
-- **Notice Obligation**(:page_facing_up:) : 고지 의무가 있습니다.
-- **Source Code Obligation** : 소스코드 공개 의무가 있습니다. 
+- **Notice**: 체크(![ObligationCheck](images/check_icon.png)) 표시가 되어 있는 경우,
+  Copyright나 License (혹은 둘 다)에 대한 고지의 의무가 있음을 의미합니다.
+- **Source**: 체크(![ObligationCheck](images/check_icon.png)) 표시가 되어 있는 경우,
+  Source Code 공개 의무가 있음을 의미합니다.
 
 ### Download Location 
 - Open Source를 다운로드 받을 수 있는 URL이 Link로 표시되며, 클릭 시 해당 사이트로 이동하거나 파일을 다운로드 받을 수 있습니다.

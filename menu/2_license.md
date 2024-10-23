@@ -56,8 +56,10 @@ License Name을 클릭하면 License 별 상세정보를 확인할 수 있습니
 
 ### Obligation
 License별로 고지와 소스코드 공개 의무사항을 알 수 있습니다.
-- **Notice Obligation**(<img src="images/6_self_check_notice_icon.PNG" width="20" height="20" />) : 고지 의무가 있습니다.
-- **Source Code Obligation**(<img src="images/6_self_check_src_icon.PNG" width="20" height="20" />): 소스코드 공개 의무가 있습니다. 
+- **Notice**: 체크(![ObligationCheck](images/check_icon.png)) 표시가 되어 있는 경우,
+  Copyright나 License (혹은 둘 다)에 대한 고지의 의무가 있음을 의미합니다.
+- **Source**: 체크(![ObligationCheck](images/check_icon.png)) 표시가 되어 있는 경우,
+  Source Code 공개 의무가 있음을 의미합니다.
 
 ### Web site 
 - License 원문의 web site 정보를 제공합니다. URL 클릭 시 해당 사이트로 이동합니다.
