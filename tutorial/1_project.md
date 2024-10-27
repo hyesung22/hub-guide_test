@@ -22,7 +22,7 @@ Project를 생성하고 OSC(Open Source Compliance) Process를 수행합니다.
 ![prj_add](images/4_project_add.png)
 
 2. **New_Project** 탭에서 Project 관련 정보를 입력합니다.
-![prj_add_bi](images/4_project_add_bi.PNG)
+![prj_add_information](images/4_project_add_information.png)
 
 3. 입력이 끝나면 우측 상단의 **Save**(<img src="images/save_button.PNG" width="20" height="20" />) 버튼을 클릭합니다.
 <br>
@@ -33,8 +33,13 @@ Project에 대한 기본 정보를 입력하는 페이지입니다.
 - **Project Name**: Project의 이름을 입력합니다.
     - 모델명과 Project명이 동일할 경우, 모델명을 입력합니다. (Project Name은 영문 작성이 권장됩니다.)
 - **Project Version**: Project의 Version을 입력합니다. Version 구분이 없다면 공란으로 둡니다.
-- **Permission**: Project의 보기 권한을 설정합니다. Creator와 Watcher에게만 Project 보기 권한을 줄 경우, 'Creator & Watcher'를 선택합니다. (Everyone 체크시 누구나 볼 수 있음.)
-Operating System : Operating System을 선택합니다. (선택 가능한 OS가 없을 경우 '직접입력'을 선택하여 직접 입력.)
+- **Permission**: Project의 보기 권한을 설정합니다. Creator와 Watcher에게만 Project 보기 권한을 줄 경우, 'Creator & Watcher'를 선택합니다. 
+  (Everyone 체크시 누구나 볼 수 있음.)
+- **Operating System** : Operating System을 선택합니다. (선택 가능한 OS가 없을 경우 '직접입력'을 선택하여 직접 입력.)
+- **Security Mail (Vulnerability)** : 해당 프로젝트에 대한 Vulnerability 메일 수신 여부를 표시합니다.
+  - 기본값으로 Enable이 선택되어 있습니다.
+  - Disable로 선택하는 경우, 해당 프로젝트에 대해 Vulnerability 메일을 더이상 수신하지 않습니다.
+  - Disable로 변경 시, Disable 사유를 필수로 입력하여야 합니다.
 - **Distribution Type**: Project의 배포 유형을 다음 중 하나로 선택합니다.
     - **General Model**: 일반적인 Model / Software / Application이 배포되는 경우 
     - **Transfer in-house**: 사내 이관하는 경우
