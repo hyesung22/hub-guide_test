@@ -10,7 +10,7 @@ published: true
 ## 동작 방식
 ### Binary 분석 자동화 방법
 
-**Project > Identification > [BIN](https://fosslight.org/hub-guide/tutorial/1_project.html#2-4-bin-tab), BIN(Android|Yocto) tab** 또는 **3rd Party SW의 Binary 분석 결과(FOSSLight Report, binary.txt)**를 Upload한 후 Save 버튼 클릭 시, Binary DB와 비교하여 동일 혹은 유사한 Binary의 OSS Name, License 등의 정보를 자동으로 채워줍니다. 
+**Project > Identification > [BIN](https://fosslight.org/hub-guide/tutorial/1_project.html#2-4-bin-tab), BIN(Android|Yocto) tab** 또는 **3rd Party SW의 Binary 분석 결과(FOSSLight Report)**를 Upload한 후 Save 버튼 클릭 시, Binary DB와 비교하여 동일 혹은 유사한 Binary의 OSS Name, License 등의 정보를 자동으로 채워줍니다. 
 -  binary.txt: checksum, tlsh값을 포함하는 binary 목록
 
 ![binarytxt](images/11_upload_binary_txt.PNG)
