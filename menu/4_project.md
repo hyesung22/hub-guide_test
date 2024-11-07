@@ -14,7 +14,7 @@ Open Source Software를 포함하는 Software의 개발 및 배포를 위해 수
 ![ProjectList](images/4_project_list_main.png)  
 
 ### 1. Project Search
-- Project의 Name으로 검색할 수 있습니다. ***Advanced Search** 기능을 이용하여 다양한 조건으로 검색 가능합니다.
+- Project의 Name으로 검색할 수 있습니다. **Advanced Search** 기능을 이용하여 다양한 조건으로 검색 가능합니다.
     - Advanced Search
         - ID, Creator, Model Name 등 다양한 조건으로 검색 가능합니다.
     ![Project_adv_search](images/4_project_search_adv.png)
