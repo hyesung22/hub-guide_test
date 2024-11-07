@@ -34,7 +34,7 @@ published: true
 |**Description**| Open Source Compliance에 필요한 부가 정보가 있을 경우, 기재합니다.|
 |**Open Source Agreement**|계약서를 해당 시스템에서 관리하고 싶은 경우에만 첨부합니다.|
 |**OSS Checklist (Open Source List)**| 미리 준비한 3rd Party OSS Checklist를 업로드합니다. <br>(업로드 시, apply할 sheet는 'Open Source Software List' 선택.)|
-|**(Not used now)fosslight_binary.txt**| Binary 분석 결과로 생성된 fosslight_binary.txt파일을 업로드합니다.|
+|**<span style="color:gray"> (Legacy)fosslight_binary.txt </span>**| <span style="color:gray">Binary 분석 결과로 생성된 fosslight_binary.txt파일을 업로드합니다.</span>|
 |**Related Documents**|3rd Party로부터 제공 받은 관련 문서를 업로드 합니다.|
 |**Watcher**|해당 3rd Party SW 정보 및 현황을 공유하고자 하는 사용자를 등록합니다.|
 
