@@ -164,4 +164,3 @@ docker-compose restart fosslight_web
 
 [local]: http://localhost:8180
 
-테스트테스트
