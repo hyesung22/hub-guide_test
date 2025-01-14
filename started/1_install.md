@@ -1,6 +1,7 @@
 # Quick Start
 ```note
-FOSSLight Hub를 빠르고 쉽게 체험하는 방법을 설명합니다. 테스트 테스트
+FOSSLight Hub를 빠르고 쉽게 체험하는 방법을 설명합니다.
+다시 수정해 봅니다.
 ```
 
 ## 🔆 Demo 사이트 이용하기
